@@ -1,0 +1,12 @@
+l_english:
+    decision_distribute_surplus_1: "Distribute Surplus"
+    decision_distribute_surplus_1_desc: "Distribute Surplus description"
+    biopopgrowth_distribute_surplus_effect: "This is the effect description"
+    biopopgrowth_distribute_surplus_5: "$decision_distribute_surplus_1$"
+    biopopgrowth_distribute_surplus_10: "$decision_distribute_surplus_1$"
+    biopopgrowth_distribute_surplus_15: "$decision_distribute_surplus_1$"
+    biopopgrowth_distribute_surplus_20: "$decision_distribute_surplus_1$"
+    biopopgrowth_distribute_surplus_25: "$decision_distribute_surplus_1$"
+    biopopgrowth_distribute_surplus_30: "$decision_distribute_surplus_1$"
+    biopopgrowth_distribute_surplus_35: "$decision_distribute_surplus_1$"
+    

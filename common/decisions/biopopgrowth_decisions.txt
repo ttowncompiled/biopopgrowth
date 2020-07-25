@@ -20,15 +20,15 @@ decision_distribute_surplus_1 = {
     }
 
     allow = {
-		NOT = {
-			biopopgrowth_has_decision_distribute_surplus = yes
-		}
+        NOT = {
+            biopopgrowth_has_decision_distribute_surplus = yes
+        }
     }
 
     effect = {
-		hidden_effect = {
-			biopopgrowth_distribute_surplus_effect = yes
-		}
+        hidden_effect = {
+            biopopgrowth_distribute_surplus_effect = yes
+        }
     }
 
     ai_weight = {

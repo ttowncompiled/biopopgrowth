@@ -1,2 +1,0 @@
-l_english:
-	decision_distribute_surplus: "Distribute Surplus"
