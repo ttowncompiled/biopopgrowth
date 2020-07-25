@@ -41,7 +41,7 @@ decision_distribute_surplus_1 = {
 	resources = {
 		categroy = decisions
 		cost = {
-			food = 10
+			food = 120
 		}
 	}
 
@@ -58,6 +58,797 @@ decision_distribute_surplus_1 = {
 			check_variable = {
 				which = planet_pops_all
 				value >= 5
+			}
+		}
+	}
+
+	allow = {
+		NOT = {
+			has_modifier = biopopgrowth_distribute_surplus
+		}
+	}
+
+	effect = {
+		hidden_effect = {
+			biopopgrowth_distribute_surplus_effect = yes
+		}
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus
+			days = 365
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_distribute_surplus_5 = {
+	owned_planets_only = yes
+
+	enactment_time = 0
+	resources = {
+		categroy = decisions
+		cost = {
+			food = 180
+		}
+	}
+
+	potential = {
+		habitable_structure = no
+		NOT = {
+			is_planet_class = pc_machine
+		}
+		NOT = {
+			is_planet_class = pc_hive
+		}
+		has_modifier = biopopgrowth_pop_census
+		NOR = {
+			check_variable = {
+				which = planet_pops_all
+				value < 5
+			}
+			check_variable = {
+				which = planet_pops_all
+				value >= 10
+			}
+		}
+	}
+
+	allow = {
+		NOT = {
+			has_modifier = biopopgrowth_distribute_surplus
+		}
+	}
+
+	effect = {
+		hidden_effect = {
+			biopopgrowth_distribute_surplus_effect = yes
+		}
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus
+			days = 365
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_distribute_surplus_10 = {
+	owned_planets_only = yes
+
+	enactment_time = 0
+	resources = {
+		categroy = decisions
+		cost = {
+			food = 360
+		}
+	}
+
+	potential = {
+		habitable_structure = no
+		NOT = {
+			is_planet_class = pc_machine
+		}
+		NOT = {
+			is_planet_class = pc_hive
+		}
+		has_modifier = biopopgrowth_pop_census
+		NOR = {
+			check_variable = {
+				which = planet_pops_all
+				value < 10
+			}
+			check_variable = {
+				which = planet_pops_all
+				value >= 15
+			}
+		}
+	}
+
+	allow = {
+		NOT = {
+			has_modifier = biopopgrowth_distribute_surplus
+		}
+	}
+
+	effect = {
+		hidden_effect = {
+			biopopgrowth_distribute_surplus_effect = yes
+		}
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus
+			days = 365
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_distribute_surplus_15 = {
+	owned_planets_only = yes
+
+	enactment_time = 0
+	resources = {
+		categroy = decisions
+		cost = {
+			food = 540
+		}
+	}
+
+	potential = {
+		habitable_structure = no
+		NOT = {
+			is_planet_class = pc_machine
+		}
+		NOT = {
+			is_planet_class = pc_hive
+		}
+		has_modifier = biopopgrowth_pop_census
+		NOR = {
+			check_variable = {
+				which = planet_pops_all
+				value < 15
+			}
+			check_variable = {
+				which = planet_pops_all
+				value >= 20
+			}
+		}
+	}
+
+	allow = {
+		NOT = {
+			has_modifier = biopopgrowth_distribute_surplus
+		}
+	}
+
+	effect = {
+		hidden_effect = {
+			biopopgrowth_distribute_surplus_effect = yes
+		}
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus
+			days = 365
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_distribute_surplus_20 = {
+	owned_planets_only = yes
+
+	enactment_time = 0
+	resources = {
+		categroy = decisions
+		cost = {
+			food = 720
+		}
+	}
+
+	potential = {
+		habitable_structure = no
+		NOT = {
+			is_planet_class = pc_machine
+		}
+		NOT = {
+			is_planet_class = pc_hive
+		}
+		has_modifier = biopopgrowth_pop_census
+		NOR = {
+			check_variable = {
+				which = planet_pops_all
+				value < 20
+			}
+			check_variable = {
+				which = planet_pops_all
+				value >= 25
+			}
+		}
+	}
+
+	allow = {
+		NOT = {
+			has_modifier = biopopgrowth_distribute_surplus
+		}
+	}
+
+	effect = {
+		hidden_effect = {
+			biopopgrowth_distribute_surplus_effect = yes
+		}
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus
+			days = 365
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_distribute_surplus_25 = {
+	owned_planets_only = yes
+
+	enactment_time = 0
+	resources = {
+		categroy = decisions
+		cost = {
+			food = 900
+		}
+	}
+
+	potential = {
+		habitable_structure = no
+		NOT = {
+			is_planet_class = pc_machine
+		}
+		NOT = {
+			is_planet_class = pc_hive
+		}
+		has_modifier = biopopgrowth_pop_census
+		NOR = {
+			check_variable = {
+				which = planet_pops_all
+				value < 25
+			}
+			check_variable = {
+				which = planet_pops_all
+				value >= 30
+			}
+		}
+	}
+
+	allow = {
+		NOT = {
+			has_modifier = biopopgrowth_distribute_surplus
+		}
+	}
+
+	effect = {
+		hidden_effect = {
+			biopopgrowth_distribute_surplus_effect = yes
+		}
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus
+			days = 365
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_distribute_surplus_30 = {
+	owned_planets_only = yes
+
+	enactment_time = 0
+	resources = {
+		categroy = decisions
+		cost = {
+			food = 1080
+		}
+	}
+
+	potential = {
+		habitable_structure = no
+		NOT = {
+			is_planet_class = pc_machine
+		}
+		NOT = {
+			is_planet_class = pc_hive
+		}
+		has_modifier = biopopgrowth_pop_census
+		NOR = {
+			check_variable = {
+				which = planet_pops_all
+				value < 30
+			}
+			check_variable = {
+				which = planet_pops_all
+				value >= 35
+			}
+		}
+	}
+
+	allow = {
+		NOT = {
+			has_modifier = biopopgrowth_distribute_surplus
+		}
+	}
+
+	effect = {
+		hidden_effect = {
+			biopopgrowth_distribute_surplus_effect = yes
+		}
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus
+			days = 365
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_distribute_surplus_35 = {
+	owned_planets_only = yes
+
+	enactment_time = 0
+	resources = {
+		categroy = decisions
+		cost = {
+			food = 1260
+		}
+	}
+
+	potential = {
+		habitable_structure = no
+		NOT = {
+			is_planet_class = pc_machine
+		}
+		NOT = {
+			is_planet_class = pc_hive
+		}
+		has_modifier = biopopgrowth_pop_census
+		NOR = {
+			check_variable = {
+				which = planet_pops_all
+				value < 35
+			}
+			check_variable = {
+				which = planet_pops_all
+				value >= 40
+			}
+		}
+	}
+
+	allow = {
+		NOT = {
+			has_modifier = biopopgrowth_distribute_surplus
+		}
+	}
+
+	effect = {
+		hidden_effect = {
+			biopopgrowth_distribute_surplus_effect = yes
+		}
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus
+			days = 365
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_distribute_surplus_40 = {
+	owned_planets_only = yes
+
+	enactment_time = 0
+	resources = {
+		categroy = decisions
+		cost = {
+			food = 1440
+		}
+	}
+
+	potential = {
+		habitable_structure = no
+		NOT = {
+			is_planet_class = pc_machine
+		}
+		NOT = {
+			is_planet_class = pc_hive
+		}
+		has_modifier = biopopgrowth_pop_census
+		NOR = {
+			check_variable = {
+				which = planet_pops_all
+				value < 40
+			}
+			check_variable = {
+				which = planet_pops_all
+				value >= 45
+			}
+		}
+	}
+
+	allow = {
+		NOT = {
+			has_modifier = biopopgrowth_distribute_surplus
+		}
+	}
+
+	effect = {
+		hidden_effect = {
+			biopopgrowth_distribute_surplus_effect = yes
+		}
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus
+			days = 365
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_distribute_surplus_45 = {
+	owned_planets_only = yes
+
+	enactment_time = 0
+	resources = {
+		categroy = decisions
+		cost = {
+			food = 1620
+		}
+	}
+
+	potential = {
+		habitable_structure = no
+		NOT = {
+			is_planet_class = pc_machine
+		}
+		NOT = {
+			is_planet_class = pc_hive
+		}
+		has_modifier = biopopgrowth_pop_census
+		NOR = {
+			check_variable = {
+				which = planet_pops_all
+				value < 45
+			}
+			check_variable = {
+				which = planet_pops_all
+				value >= 50
+			}
+		}
+	}
+
+	allow = {
+		NOT = {
+			has_modifier = biopopgrowth_distribute_surplus
+		}
+	}
+
+	effect = {
+		hidden_effect = {
+			biopopgrowth_distribute_surplus_effect = yes
+		}
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus
+			days = 365
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_distribute_surplus_50 = {
+	owned_planets_only = yes
+
+	enactment_time = 0
+	resources = {
+		categroy = decisions
+		cost = {
+			food = 1800
+		}
+	}
+
+	potential = {
+		habitable_structure = no
+		NOT = {
+			is_planet_class = pc_machine
+		}
+		NOT = {
+			is_planet_class = pc_hive
+		}
+		has_modifier = biopopgrowth_pop_census
+		NOR = {
+			check_variable = {
+				which = planet_pops_all
+				value < 50
+			}
+			check_variable = {
+				which = planet_pops_all
+				value >= 55
+			}
+		}
+	}
+
+	allow = {
+		NOT = {
+			has_modifier = biopopgrowth_distribute_surplus
+		}
+	}
+
+	effect = {
+		hidden_effect = {
+			biopopgrowth_distribute_surplus_effect = yes
+		}
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus
+			days = 365
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_distribute_surplus_55 = {
+	owned_planets_only = yes
+
+	enactment_time = 0
+	resources = {
+		categroy = decisions
+		cost = {
+			food = 1980
+		}
+	}
+
+	potential = {
+		habitable_structure = no
+		NOT = {
+			is_planet_class = pc_machine
+		}
+		NOT = {
+			is_planet_class = pc_hive
+		}
+		has_modifier = biopopgrowth_pop_census
+		NOR = {
+			check_variable = {
+				which = planet_pops_all
+				value < 55
+			}
+			check_variable = {
+				which = planet_pops_all
+				value >= 60
+			}
+		}
+	}
+
+	allow = {
+		NOT = {
+			has_modifier = biopopgrowth_distribute_surplus
+		}
+	}
+
+	effect = {
+		hidden_effect = {
+			biopopgrowth_distribute_surplus_effect = yes
+		}
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus
+			days = 365
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_distribute_surplus_60 = {
+	owned_planets_only = yes
+
+	enactment_time = 0
+	resources = {
+		categroy = decisions
+		cost = {
+			food = 2160
+		}
+	}
+
+	potential = {
+		habitable_structure = no
+		NOT = {
+			is_planet_class = pc_machine
+		}
+		NOT = {
+			is_planet_class = pc_hive
+		}
+		has_modifier = biopopgrowth_pop_census
+		NOR = {
+			check_variable = {
+				which = planet_pops_all
+				value < 60
+			}
+			check_variable = {
+				which = planet_pops_all
+				value >= 65
+			}
+		}
+	}
+
+	allow = {
+		NOT = {
+			has_modifier = biopopgrowth_distribute_surplus
+		}
+	}
+
+	effect = {
+		hidden_effect = {
+			biopopgrowth_distribute_surplus_effect = yes
+		}
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus
+			days = 365
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_distribute_surplus_65 = {
+	owned_planets_only = yes
+
+	enactment_time = 0
+	resources = {
+		categroy = decisions
+		cost = {
+			food = 2340
+		}
+	}
+
+	potential = {
+		habitable_structure = no
+		NOT = {
+			is_planet_class = pc_machine
+		}
+		NOT = {
+			is_planet_class = pc_hive
+		}
+		has_modifier = biopopgrowth_pop_census
+		NOR = {
+			check_variable = {
+				which = planet_pops_all
+				value < 65
+			}
+			check_variable = {
+				which = planet_pops_all
+				value >= 70
+			}
+		}
+	}
+
+	allow = {
+		NOT = {
+			has_modifier = biopopgrowth_distribute_surplus
+		}
+	}
+
+	effect = {
+		hidden_effect = {
+			biopopgrowth_distribute_surplus_effect = yes
+		}
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus
+			days = 365
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_distribute_surplus_70 = {
+	owned_planets_only = yes
+
+	enactment_time = 0
+	resources = {
+		categroy = decisions
+		cost = {
+			food = 2520
+		}
+	}
+
+	potential = {
+		habitable_structure = no
+		NOT = {
+			is_planet_class = pc_machine
+		}
+		NOT = {
+			is_planet_class = pc_hive
+		}
+		has_modifier = biopopgrowth_pop_census
+		NOR = {
+			check_variable = {
+				which = planet_pops_all
+				value < 70
+			}
+			check_variable = {
+				which = planet_pops_all
+				value >= 75
+			}
+		}
+	}
+
+	allow = {
+		NOT = {
+			has_modifier = biopopgrowth_distribute_surplus
+		}
+	}
+
+	effect = {
+		hidden_effect = {
+			biopopgrowth_distribute_surplus_effect = yes
+		}
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus
+			days = 365
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_distribute_surplus_75 = {
+	owned_planets_only = yes
+
+	enactment_time = 0
+	resources = {
+		categroy = decisions
+		cost = {
+			food = 2700
+		}
+	}
+
+	potential = {
+		habitable_structure = no
+		NOT = {
+			is_planet_class = pc_machine
+		}
+		NOT = {
+			is_planet_class = pc_hive
+		}
+		has_modifier = biopopgrowth_pop_census
+		NOR = {
+			check_variable = {
+				which = planet_pops_all
+				value < 75
 			}
 		}
 	}
