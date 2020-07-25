@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
     decision_distribute_surplus_1: "Distribute Surplus"
     decision_distribute_surplus_1_desc: "Distribute Surplus description"
     biopopgrowth_distribute_surplus_effect: "This is the effect description"
