@@ -1,6 +1,6 @@
 ﻿l_english:
     decision_distribute_surplus_1: "Distribute Surplus"
-    decision_distribute_surplus_1_desc: "Distributing surplus resources encourages logistic pop growth and pop happiness. Sociologists have determined that having at least 1.5 housing per pop is ideal for growth."
+    decision_distribute_surplus_1_desc: "Distributing surplus resources encourages logistic pop growth and pop happiness. Sociologists have determined that having at least 1 free housing per 2 bio pop is ideal for growth."
     biopopgrowth_distribute_surplus: "$decision_distribute_surplus_1$"
     biopopgrowth_distribute_surplus_desc: "Pop happiness is improved due to an abundance of food."
     biopopgrowth_distribute_surplus_2: "$decision_distribute_surplus_1$"
