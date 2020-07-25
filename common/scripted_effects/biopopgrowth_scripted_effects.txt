@@ -1581,7 +1581,7 @@ biopopgrowth_calculate_bp_growth = {
 }
 
 biopopgrowth_calc_capacity_effect = {
-    biopopgrowth_count_pops_effect = yes
+    biopopgrowth_count_bio_pops_effect = yes
     biopopgrowth_calc_abs_free_housing_effect = yes
     
     set_variable = {
@@ -1630,7 +1630,7 @@ biopopgrowth_calc_capacity_effect = {
     }
 }
 
-biopopgrowth_count_pops_effect = {
+biopopgrowth_count_bio_pops_effect = {
     set_variable = {
         which = bio_pops
         value = 0
@@ -1668,6 +1668,22 @@ biopopgrowth_calc_abs_free_housing_effect = {
             multiply_variable = {
                 which = abs_free_housing
                 value = -1
+            }
+        }
+    }
+}
+
+biopopgrowth_count_all_pops_effect = {
+    set_variable = {
+        which = planet_pops_all
+        value = 0
+    }
+    
+    every_owned_pop = {
+        planet = {
+            change_variable = {
+                which = planet_pops_all
+                value = 1
             }
         }
     }
