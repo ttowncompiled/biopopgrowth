@@ -5,12 +5,12 @@ biopopgrowth_distribute_surplus_effect = {
 		limit = {
 			check_variable = {
 				which = bp_growth
-				value <= 0
+				value <= 5
 			}
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_0 days = 360
+			modifier = biopopgrowth_distribute_surplus_5 days = 360
 		}
 	}
 	
@@ -19,7 +19,7 @@ biopopgrowth_distribute_surplus_effect = {
 			AND = {
 				check_variable = {
 					which = bp_growth
-					value > 0
+					value > 5
 				}
 				check_variable = {
 					which = bp_growth
@@ -32,13 +32,32 @@ biopopgrowth_distribute_surplus_effect = {
 			modifier = biopopgrowth_distribute_surplus_10 days = 360
 		}
 	}
-		
+
 	if = {
 		limit = {
 			AND = {
 				check_variable = {
 					which = bp_growth
 					value > 10
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 15
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_15 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 15
 				}
 				check_variable = {
 					which = bp_growth
@@ -51,13 +70,32 @@ biopopgrowth_distribute_surplus_effect = {
 			modifier = biopopgrowth_distribute_surplus_20 days = 360
 		}
 	}
-		
+
 	if = {
 		limit = {
 			AND = {
 				check_variable = {
 					which = bp_growth
 					value > 20
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 25
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_25 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 25
 				}
 				check_variable = {
 					which = bp_growth
@@ -70,13 +108,32 @@ biopopgrowth_distribute_surplus_effect = {
 			modifier = biopopgrowth_distribute_surplus_30 days = 360
 		}
 	}
-	
+
 	if = {
 		limit = {
 			AND = {
 				check_variable = {
 					which = bp_growth
 					value > 30
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 35
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_35 days = 360
+		}
+	}
+	
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 35
 				}
 				check_variable = {
 					which = bp_growth
@@ -89,13 +146,32 @@ biopopgrowth_distribute_surplus_effect = {
 			modifier = biopopgrowth_distribute_surplus_40 days = 360
 		}
 	}
-		
+
 	if = {
 		limit = {
 			AND = {
 				check_variable = {
 					which = bp_growth
 					value > 40
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 45
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_45 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 45
 				}
 				check_variable = {
 					which = bp_growth
@@ -108,13 +184,32 @@ biopopgrowth_distribute_surplus_effect = {
 			modifier = biopopgrowth_distribute_surplus_50 days = 360
 		}
 	}
-		
+
 	if = {
 		limit = {
 			AND = {
 				check_variable = {
 					which = bp_growth
 					value > 50
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 55
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_55 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 55
 				}
 				check_variable = {
 					which = bp_growth
@@ -127,13 +222,32 @@ biopopgrowth_distribute_surplus_effect = {
 			modifier = biopopgrowth_distribute_surplus_60 days = 360
 		}
 	}
-		
+
 	if = {
 		limit = {
 			AND = {
 				check_variable = {
 					which = bp_growth
 					value > 60
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 65
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_65 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 65
 				}
 				check_variable = {
 					which = bp_growth
@@ -146,13 +260,32 @@ biopopgrowth_distribute_surplus_effect = {
 			modifier = biopopgrowth_distribute_surplus_70 days = 360
 		}
 	}
-		
+
 	if = {
 		limit = {
 			AND = {
 				check_variable = {
 					which = bp_growth
 					value > 70
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 75
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_75 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 75
 				}
 				check_variable = {
 					which = bp_growth
@@ -165,13 +298,32 @@ biopopgrowth_distribute_surplus_effect = {
 			modifier = biopopgrowth_distribute_surplus_80 days = 360
 		}
 	}
-		
+
 	if = {
 		limit = {
 			AND = {
 				check_variable = {
 					which = bp_growth
 					value > 80
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 85
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_85 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 85
 				}
 				check_variable = {
 					which = bp_growth
@@ -184,13 +336,32 @@ biopopgrowth_distribute_surplus_effect = {
 			modifier = biopopgrowth_distribute_surplus_90 days = 360
 		}
 	}
-		
+
 	if = {
 		limit = {
 			AND = {
 				check_variable = {
 					which = bp_growth
 					value > 90
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 95
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_95 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 95
 				}
 				check_variable = {
 					which = bp_growth
@@ -203,17 +374,397 @@ biopopgrowth_distribute_surplus_effect = {
 			modifier = biopopgrowth_distribute_surplus_100 days = 360
 		}
 	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 100
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 105
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_105 days = 360
+		}
+	}
+	
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 105
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 110
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_110 days = 360
+		}
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 110
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 115
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_115 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 115
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 120
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_120 days = 360
+		}
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 120
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 125
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_125 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 125
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 130
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_130 days = 360
+		}
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 130
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 135
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_135 days = 360
+		}
+	}
+	
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 135
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 140
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_140 days = 360
+		}
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 140
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 145
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_145 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 145
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 150
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_150 days = 360
+		}
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 150
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 155
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_155 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 155
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 160
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_160 days = 360
+		}
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 160
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 165
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_165 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 165
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 170
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_170 days = 360
+		}
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 170
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 175
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_175 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 175
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 180
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_180 days = 360
+		}
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 180
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 185
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_185 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 185
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 190
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_190 days = 360
+		}
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 190
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 195
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_195 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 195
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 200
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_200 days = 360
+		}
+	}
 		
 	if = {
 		limit = {
 			check_variable = {
 				which = bp_growth
-				value > 100
+				value > 200
 			}
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_100 days = 360
+			modifier = biopopgrowth_distribute_surplus_200 days = 360
 		}
 	}
 }

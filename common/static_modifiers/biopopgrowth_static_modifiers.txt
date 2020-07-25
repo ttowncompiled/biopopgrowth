@@ -1,6 +1,16 @@
-biopopgrowth_distribute_surplus_0 = {
-	bio_pop_growth_speed = 0
-	bio_pop_growth_from_immigration = 0
+biopopgrowth_distribute_surplus_2 = {
+	bio_pop_growth_speed = 0.025
+	bio_pop_growth_from_immigration = 0.025
+}
+
+biopopgrowth_distribute_surplus_5 = {
+	bio_pop_growth_speed = 0.05
+	bio_pop_growth_from_immigration = 0.05
+}
+
+biopopgrowth_distribute_surplus_7 = {
+	bio_pop_growth_speed = 0.075
+	bio_pop_growth_from_immigration = 0.075
 }
 
 biopopgrowth_distribute_surplus_10 = {
@@ -8,9 +18,39 @@ biopopgrowth_distribute_surplus_10 = {
 	bio_pop_growth_from_immigration = 0.1
 }
 
+biopopgrowth_distribute_surplus_12 = {
+	bio_pop_growth_speed = 0.125
+	bio_pop_growth_from_immigration = 0.125
+}
+
+biopopgrowth_distribute_surplus_15 = {
+	bio_pop_growth_speed = 0.15
+	bio_pop_growth_from_immigration = 0.15
+}
+
+biopopgrowth_distribute_surplus_17 = {
+	bio_pop_growth_speed = 0.175
+	bio_pop_growth_from_immigration = 0.175
+}
+
 biopopgrowth_distribute_surplus_20 = {
 	bio_pop_growth_speed = 0.2
 	bio_pop_growth_from_immigration = 0.2
+}
+
+biopopgrowth_distribute_surplus_22 = {
+	bio_pop_growth_speed = 0.225
+	bio_pop_growth_from_immigration = 0.225
+}
+
+biopopgrowth_distribute_surplus_25 = {
+	bio_pop_growth_speed = 0.25
+	bio_pop_growth_from_immigration = 0.25
+}
+
+biopopgrowth_distribute_surplus_27 = {
+	bio_pop_growth_speed = 0.275
+	bio_pop_growth_from_immigration = 0.275
 }
 
 biopopgrowth_distribute_surplus_30 = {
@@ -18,9 +58,39 @@ biopopgrowth_distribute_surplus_30 = {
 	bio_pop_growth_from_immigration = 0.3
 }
 
+biopopgrowth_distribute_surplus_32 = {
+	bio_pop_growth_speed = 0.325
+	bio_pop_growth_from_immigration = 0.325
+}
+
+biopopgrowth_distribute_surplus_35 = {
+	bio_pop_growth_speed = 0.35
+	bio_pop_growth_from_immigration = 0.35
+}
+
+biopopgrowth_distribute_surplus_37 = {
+	bio_pop_growth_speed = 0.375
+	bio_pop_growth_from_immigration = 0.375
+}
+
 biopopgrowth_distribute_surplus_40 = {
 	bio_pop_growth_speed = 0.4
 	bio_pop_growth_from_immigration = 0.4
+}
+
+biopopgrowth_distribute_surplus_42 = {
+	bio_pop_growth_speed = 0.425
+	bio_pop_growth_from_immigration = 0.425
+}
+
+biopopgrowth_distribute_surplus_45 = {
+	bio_pop_growth_speed = 0.45
+	bio_pop_growth_from_immigration = 0.45
+}
+
+biopopgrowth_distribute_surplus_47 = {
+	bio_pop_growth_speed = 0.475
+	bio_pop_growth_from_immigration = 0.475
 }
 
 biopopgrowth_distribute_surplus_50 = {
@@ -28,9 +98,39 @@ biopopgrowth_distribute_surplus_50 = {
 	bio_pop_growth_from_immigration = 0.5
 }
 
+biopopgrowth_distribute_surplus_52 = {
+	bio_pop_growth_speed = 0.525
+	bio_pop_growth_from_immigration = 0.525
+}
+
+biopopgrowth_distribute_surplus_55 = {
+	bio_pop_growth_speed = 0.55
+	bio_pop_growth_from_immigration = 0.55
+}
+
+biopopgrowth_distribute_surplus_57 = {
+	bio_pop_growth_speed = 0.575
+	bio_pop_growth_from_immigration = 0.575
+}
+
 biopopgrowth_distribute_surplus_60 = {
 	bio_pop_growth_speed = 0.6
 	bio_pop_growth_from_immigration = 0.6
+}
+
+biopopgrowth_distribute_surplus_62 = {
+	bio_pop_growth_speed = 0.625
+	bio_pop_growth_from_immigration = 0.625
+}
+
+biopopgrowth_distribute_surplus_65 = {
+	bio_pop_growth_speed = 0.65
+	bio_pop_growth_from_immigration = 0.65
+}
+
+biopopgrowth_distribute_surplus_67 = {
+	bio_pop_growth_speed = 0.675
+	bio_pop_growth_from_immigration = 0.675
 }
 
 biopopgrowth_distribute_surplus_70 = {
@@ -38,9 +138,39 @@ biopopgrowth_distribute_surplus_70 = {
 	bio_pop_growth_from_immigration = 0.7
 }
 
+biopopgrowth_distribute_surplus_72 = {
+	bio_pop_growth_speed = 0.725
+	bio_pop_growth_from_immigration = 0.725
+}
+
+biopopgrowth_distribute_surplus_75 = {
+	bio_pop_growth_speed = 0.75
+	bio_pop_growth_from_immigration = 0.75
+}
+
+biopopgrowth_distribute_surplus_77 = {
+	bio_pop_growth_speed = 0.775
+	bio_pop_growth_from_immigration = 0.775
+}
+
 biopopgrowth_distribute_surplus_80 = {
 	bio_pop_growth_speed = 0.8
 	bio_pop_growth_from_immigration = 0.8
+}
+
+biopopgrowth_distribute_surplus_82 = {
+	bio_pop_growth_speed = 0.825
+	bio_pop_growth_from_immigration = 0.825
+}
+
+biopopgrowth_distribute_surplus_85 = {
+	bio_pop_growth_speed = 0.85
+	bio_pop_growth_from_immigration = 0.85
+}
+
+biopopgrowth_distribute_surplus_87 = {
+	bio_pop_growth_speed = 0.875
+	bio_pop_growth_from_immigration = 0.875
 }
 
 biopopgrowth_distribute_surplus_90 = {
@@ -48,7 +178,222 @@ biopopgrowth_distribute_surplus_90 = {
 	bio_pop_growth_from_immigration = 0.9
 }
 
+biopopgrowth_distribute_surplus_92 = {
+	bio_pop_growth_speed = 0.925
+	bio_pop_growth_from_immigration = 0.925
+}
+
+biopopgrowth_distribute_surplus_95 = {
+	bio_pop_growth_speed = 0.95
+	bio_pop_growth_from_immigration = 0.95
+}
+
+biopopgrowth_distribute_surplus_97 = {
+	bio_pop_growth_speed = 0.975
+	bio_pop_growth_from_immigration = 0.975
+}
+
 biopopgrowth_distribute_surplus_100 = {
 	bio_pop_growth_speed = 1
 	bio_pop_growth_from_immigration = 1
+}
+
+biopopgrowth_distribute_surplus_102 = {
+	bio_pop_growth_speed = 1.025
+	bio_pop_growth_from_immigration = 1.025
+}
+
+biopopgrowth_distribute_surplus_105 = {
+	bio_pop_growth_speed = 1.05
+	bio_pop_growth_from_immigration = 1.05
+}
+
+biopopgrowth_distribute_surplus_107 = {
+	bio_pop_growth_speed = 1.075
+	bio_pop_growth_from_immigration = 1.075
+}
+
+biopopgrowth_distribute_surplus_110 = {
+	bio_pop_growth_speed = 1.1
+	bio_pop_growth_from_immigration = 1.1
+}
+
+biopopgrowth_distribute_surplus_112 = {
+	bio_pop_growth_speed = 1.125
+	bio_pop_growth_from_immigration = 1.125
+}
+
+biopopgrowth_distribute_surplus_115 = {
+	bio_pop_growth_speed = 1.15
+	bio_pop_growth_from_immigration = 1.15
+}
+
+biopopgrowth_distribute_surplus_117 = {
+	bio_pop_growth_speed = 1.175
+	bio_pop_growth_from_immigration = 1.175
+}
+
+biopopgrowth_distribute_surplus_120 = {
+	bio_pop_growth_speed = 1.2
+	bio_pop_growth_from_immigration = 1.2
+}
+
+biopopgrowth_distribute_surplus_122 = {
+	bio_pop_growth_speed = 1.225
+	bio_pop_growth_from_immigration = 1.225
+}
+
+biopopgrowth_distribute_surplus_125 = {
+	bio_pop_growth_speed = 1.25
+	bio_pop_growth_from_immigration = 1.25
+}
+
+biopopgrowth_distribute_surplus_127 = {
+	bio_pop_growth_speed = 1.275
+	bio_pop_growth_from_immigration = 1.275
+}
+
+biopopgrowth_distribute_surplus_130 = {
+	bio_pop_growth_speed = 1.3
+	bio_pop_growth_from_immigration = 1.3
+}
+
+biopopgrowth_distribute_surplus_132 = {
+	bio_pop_growth_speed = 1.325
+	bio_pop_growth_from_immigration = 1.325
+}
+
+biopopgrowth_distribute_surplus_135 = {
+	bio_pop_growth_speed = 1.35
+	bio_pop_growth_from_immigration = 1.35
+}
+
+biopopgrowth_distribute_surplus_137 = {
+	bio_pop_growth_speed = 1.375
+	bio_pop_growth_from_immigration = 1.375
+}
+
+biopopgrowth_distribute_surplus_140 = {
+	bio_pop_growth_speed = 1.4
+	bio_pop_growth_from_immigration = 1.4
+}
+
+biopopgrowth_distribute_surplus_142 = {
+	bio_pop_growth_speed = 1.425
+	bio_pop_growth_from_immigration = 1.425
+}
+
+biopopgrowth_distribute_surplus_145 = {
+	bio_pop_growth_speed = 1.45
+	bio_pop_growth_from_immigration = 1.45
+}
+
+biopopgrowth_distribute_surplus_147 = {
+	bio_pop_growth_speed = 1.475
+	bio_pop_growth_from_immigration = 1.475
+}
+
+biopopgrowth_distribute_surplus_150 = {
+	bio_pop_growth_speed = 1.5
+	bio_pop_growth_from_immigration = 1.5
+}
+
+biopopgrowth_distribute_surplus_152 = {
+	bio_pop_growth_speed = 1.525
+	bio_pop_growth_from_immigration = 1.525
+}
+
+biopopgrowth_distribute_surplus_155 = {
+	bio_pop_growth_speed = 1.55
+	bio_pop_growth_from_immigration = 1.55
+}
+
+biopopgrowth_distribute_surplus_157 = {
+	bio_pop_growth_speed = 1.575
+	bio_pop_growth_from_immigration = 1.575
+}
+
+biopopgrowth_distribute_surplus_160 = {
+	bio_pop_growth_speed = 1.6
+	bio_pop_growth_from_immigration = 1.6
+}
+
+biopopgrowth_distribute_surplus_162 = {
+	bio_pop_growth_speed = 1.625
+	bio_pop_growth_from_immigration = 1.625
+}
+
+biopopgrowth_distribute_surplus_165 = {
+	bio_pop_growth_speed = 1.65
+	bio_pop_growth_from_immigration = 1.65
+}
+
+biopopgrowth_distribute_surplus_167 = {
+	bio_pop_growth_speed = 1.675
+	bio_pop_growth_from_immigration = 1.675
+}
+
+biopopgrowth_distribute_surplus_170 = {
+	bio_pop_growth_speed = 1.7
+	bio_pop_growth_from_immigration = 1.7
+}
+
+biopopgrowth_distribute_surplus_172 = {
+	bio_pop_growth_speed = 1.725
+	bio_pop_growth_from_immigration = 1.725
+}
+
+biopopgrowth_distribute_surplus_175 = {
+	bio_pop_growth_speed = 1.75
+	bio_pop_growth_from_immigration = 1.75
+}
+
+biopopgrowth_distribute_surplus_177 = {
+	bio_pop_growth_speed = 1.775
+	bio_pop_growth_from_immigration = 1.775
+}
+
+biopopgrowth_distribute_surplus_180 = {
+	bio_pop_growth_speed = 1.8
+	bio_pop_growth_from_immigration = 1.8
+}
+
+biopopgrowth_distribute_surplus_182 = {
+	bio_pop_growth_speed = 1.825
+	bio_pop_growth_from_immigration = 1.825
+}
+
+biopopgrowth_distribute_surplus_185 = {
+	bio_pop_growth_speed = 1.85
+	bio_pop_growth_from_immigration = 1.85
+}
+
+biopopgrowth_distribute_surplus_187 = {
+	bio_pop_growth_speed = 1.875
+	bio_pop_growth_from_immigration = 1.875
+}
+
+biopopgrowth_distribute_surplus_190 = {
+	bio_pop_growth_speed = 1.9
+	bio_pop_growth_from_immigration = 1.9
+}
+
+biopopgrowth_distribute_surplus_192 = {
+	bio_pop_growth_speed = 1.925
+	bio_pop_growth_from_immigration = 1.925
+}
+
+biopopgrowth_distribute_surplus_195 = {
+	bio_pop_growth_speed = 1.95
+	bio_pop_growth_from_immigration = 1.95
+}
+
+biopopgrowth_distribute_surplus_197 = {
+	bio_pop_growth_speed = 1.975
+	bio_pop_growth_from_immigration = 1.975
+}
+
+biopopgrowth_distribute_surplus_200 = {
+	bio_pop_growth_speed = 2
+	bio_pop_growth_from_immigration = 2
 }
