@@ -1,0 +1,37 @@
+decision_distribute_surplus_1 = {
+    owned_planets_only = yes
+
+    enactment_time = 0
+    resources = {
+        categroy = decisions
+        cost = {
+            food = 10
+        }
+    }
+
+    potential = {
+        habitable_structure = no
+        NOT = {
+            is_planet_class = pc_machine
+        }
+        NOT = {
+            is_planet_class = pc_hive
+        }
+    }
+
+    allow = {
+		NOT = {
+			biopopgrowth_has_decision_distribute_surplus = yes
+		}
+    }
+
+    effect = {
+		hidden_effect = {
+			biopopgrowth_distribute_surplus_effect = yes
+		}
+    }
+
+    ai_weight = {
+        weight = 1
+    }
+}

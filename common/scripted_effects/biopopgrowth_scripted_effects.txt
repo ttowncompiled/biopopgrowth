@@ -1,0 +1,344 @@
+biopopgrowth_distribute_surplus_effect = {
+	biopopgrowth_calculate_bp_growth = yes
+
+	if = {
+		limit = {
+			check_variable = {
+				which = bp_growth
+				value <= 0
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_0 days = 360
+		}
+	}
+	
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 0
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 10
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_10 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 10
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 20
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_20 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 20
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 30
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_30 days = 360
+		}
+	}
+	
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 30
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 40
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_40 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 40
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 50
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_50 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 50
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 60
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_60 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 60
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 70
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_70 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 70
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 80
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_80 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 80
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 90
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_90 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			AND = {
+				check_variable = {
+					which = bp_growth
+					value > 90
+				}
+				check_variable = {
+					which = bp_growth
+					value <= 100
+				}
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_100 days = 360
+		}
+	}
+		
+	if = {
+		limit = {
+			check_variable = {
+				which = bp_growth
+				value > 100
+			}
+		}
+		
+		add_modifier = {
+			modifier = biopopgrowth_distribute_surplus_100 days = 360
+		}
+	}
+}
+
+biopopgrowth_calculate_bp_growth = {
+	biopopgrowth_calc_capacity_effect = yes
+	
+	set_variable = {
+		which = bp_growth
+		value = 0
+	}
+	
+	planet = {
+		change_variable = {
+			which = bp_growth
+			value = bio_pops
+		}
+	}
+	
+	planet = {
+		divide_variable = {
+			which = bp_growth
+			value = bio_capacity
+		}
+	}
+	
+	planet = {
+		multiply_variable = {
+			which = bp_growth
+			value = -1
+		}
+	}
+	
+	planet = {
+		change_variable = {
+			which = bp_growth
+			value = 1
+		}
+	}
+	
+	planet = {
+		multiply_variable = {
+			which = bp_growth
+			value = bio_pops
+		}
+	}
+	
+	planet = {
+		multiply_variable = {
+			which = bp_growth
+			value = 3
+		}
+	}
+}
+
+biopopgrowth_calc_capacity_effect = {
+	biopopgrowth_count_pops_effect = yes
+	biopopgrowth_calc_abs_free_housing_effect = yes
+	
+	set_variable = {
+		which = bio_capacity
+		value = 0
+	}
+	
+	planet = {
+		change_variable = {
+			which = bio_capacity
+			value = bio_pops
+		}
+	}
+	
+	planet = {
+		change_variable = {
+			which = bio_capacity
+			value = abs_free_housing
+		}
+	}
+	
+	planet = {
+		multiply_variable = {
+			which = bio_capacity
+			value = 1.5
+		}
+	}
+}
+
+biopopgrowth_count_pops_effect = {
+	set_variable = {
+		which = bio_pops
+		value = 0
+	}
+	
+	every_owned_pop = {
+		limit = {
+			is_robot_pop = no
+		}
+		
+		planet = {
+			change_variable = {
+				which = bio_pops
+				value = 1
+			}
+		}
+	}
+}
+
+biopopgrowth_calc_abs_free_housing_effect = {
+	set_variable = {
+		which = abs_free_housing
+		value = free_housing
+	}
+	
+	if = {
+		limit = {
+			check_variable = {
+				which = abs_free_housing
+				value < 0
+			}
+		}
+		
+		planet = {
+			multiply_variable = {
+				which = abs_free_housing
+				value = -1
+			}
+		}
+	}
+}

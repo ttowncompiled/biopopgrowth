@@ -1,0 +1,15 @@
+biopopgrowth_has_decision_distribute_surplus = {
+	OR = {
+		has_modifier = biopopgrowth_distribute_surplus_0
+		has_modifier = biopopgrowth_distribute_surplus_10
+		has_modifier = biopopgrowth_distribute_surplus_20
+		has_modifier = biopopgrowth_distribute_surplus_30
+		has_modifier = biopopgrowth_distribute_surplus_40
+		has_modifier = biopopgrowth_distribute_surplus_50
+		has_modifier = biopopgrowth_distribute_surplus_60
+		has_modifier = biopopgrowth_distribute_surplus_70
+		has_modifier = biopopgrowth_distribute_surplus_80
+		has_modifier = biopopgrowth_distribute_surplus_90
+		has_modifier = biopopgrowth_distribute_surplus_100
+	}
+}

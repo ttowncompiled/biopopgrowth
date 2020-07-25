@@ -1,0 +1,54 @@
+biopopgrowth_distribute_surplus_0 = {
+	bio_pop_growth_speed = 0
+	bio_pop_growth_from_immigration = 0
+}
+
+biopopgrowth_distribute_surplus_10 = {
+	bio_pop_growth_speed = 0.1
+	bio_pop_growth_from_immigration = 0.1
+}
+
+biopopgrowth_distribute_surplus_20 = {
+	bio_pop_growth_speed = 0.2
+	bio_pop_growth_from_immigration = 0.2
+}
+
+biopopgrowth_distribute_surplus_30 = {
+	bio_pop_growth_speed = 0.3
+	bio_pop_growth_from_immigration = 0.3
+}
+
+biopopgrowth_distribute_surplus_40 = {
+	bio_pop_growth_speed = 0.4
+	bio_pop_growth_from_immigration = 0.4
+}
+
+biopopgrowth_distribute_surplus_50 = {
+	bio_pop_growth_speed = 0.5
+	bio_pop_growth_from_immigration = 0.5
+}
+
+biopopgrowth_distribute_surplus_60 = {
+	bio_pop_growth_speed = 0.6
+	bio_pop_growth_from_immigration = 0.6
+}
+
+biopopgrowth_distribute_surplus_70 = {
+	bio_pop_growth_speed = 0.7
+	bio_pop_growth_from_immigration = 0.7
+}
+
+biopopgrowth_distribute_surplus_80 = {
+	bio_pop_growth_speed = 0.8
+	bio_pop_growth_from_immigration = 0.8
+}
+
+biopopgrowth_distribute_surplus_90 = {
+	bio_pop_growth_speed = 0.9
+	bio_pop_growth_from_immigration = 0.9
+}
+
+biopopgrowth_distribute_surplus_100 = {
+	bio_pop_growth_speed = 1
+	bio_pop_growth_from_immigration = 1
+}
