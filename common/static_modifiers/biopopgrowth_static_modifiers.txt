@@ -1,3 +1,7 @@
+biopopgrowth_distribute_surplus = {
+    biological_pop_happiness = 0.1
+}
+
 biopopgrowth_distribute_surplus_2 = {
     bio_pop_growth_speed = 0.025
     bio_pop_growth_from_immigration = 0.025
