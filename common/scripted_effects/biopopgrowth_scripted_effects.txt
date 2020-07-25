@@ -284,11 +284,30 @@ biopopgrowth_calc_capacity_effect = {
 			value = bio_pops
 		}
 	}
-	
-	planet = {
-		change_variable = {
-			which = bio_capacity
-			value = abs_free_housing
+
+	if = {
+		limit = {
+			free_housing < 0
+		}
+
+		planet = {
+			subtract_variable = {
+				which = bio_capacity
+				value = abs_free_housing
+			}
+		}
+	}
+
+	if = {
+		limit = {
+			free_housing >= 0
+		}
+
+		planet = {
+			change_variable = {
+				which = bio_capacity
+				value = abs_free_housing
+			}
 		}
 	}
 	
