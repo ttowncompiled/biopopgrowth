@@ -1,6 +1,5 @@
 biopopgrowth_has_decision_distribute_surplus = {
     OR = {
-        has_modifier = biopopgrowth_distribute_surplus_0
         has_modifier = biopopgrowth_distribute_surplus_5
         has_modifier = biopopgrowth_distribute_surplus_10
         has_modifier = biopopgrowth_distribute_surplus_15
