@@ -1,6 +1,6 @@
 ﻿l_english:
     decision_pop_census: "Planetary Census"
-    decision_pop_census_desc: "Conduct a planetary census in preparation for distributing surplus resources to the planet's population. Valid for 1 year."
+    decision_pop_census_desc: "Conduct a planetary census in preparation to distribute surplus resources to the planet's population. Valid for 1 year."
     biopopgrowth_pop_census: "$decision_pop_census$"
     biopopgrowth_pop_census_desc: "A planetary census has been conducted."
     decision_distribute_surplus_1: "Distribute Surplus"
