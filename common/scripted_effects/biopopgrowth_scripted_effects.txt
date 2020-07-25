@@ -10,7 +10,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_5 days = 360
+            modifier = biopopgrowth_distribute_surplus_5 days = 365
         }
     }
     
@@ -29,7 +29,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_10 days = 360
+            modifier = biopopgrowth_distribute_surplus_10 days = 365
         }
     }
 
@@ -48,7 +48,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_15 days = 360
+            modifier = biopopgrowth_distribute_surplus_15 days = 365
         }
     }
         
@@ -67,7 +67,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_20 days = 360
+            modifier = biopopgrowth_distribute_surplus_20 days = 365
         }
     }
 
@@ -86,7 +86,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_25 days = 360
+            modifier = biopopgrowth_distribute_surplus_25 days = 365
         }
     }
         
@@ -105,7 +105,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_30 days = 360
+            modifier = biopopgrowth_distribute_surplus_30 days = 365
         }
     }
 
@@ -124,7 +124,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_35 days = 360
+            modifier = biopopgrowth_distribute_surplus_35 days = 365
         }
     }
     
@@ -143,7 +143,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_40 days = 360
+            modifier = biopopgrowth_distribute_surplus_40 days = 365
         }
     }
 
@@ -162,7 +162,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_45 days = 360
+            modifier = biopopgrowth_distribute_surplus_45 days = 365
         }
     }
         
@@ -181,7 +181,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_50 days = 360
+            modifier = biopopgrowth_distribute_surplus_50 days = 365
         }
     }
 
@@ -200,7 +200,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_55 days = 360
+            modifier = biopopgrowth_distribute_surplus_55 days = 365
         }
     }
         
@@ -219,7 +219,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_60 days = 360
+            modifier = biopopgrowth_distribute_surplus_60 days = 365
         }
     }
 
@@ -238,7 +238,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_65 days = 360
+            modifier = biopopgrowth_distribute_surplus_65 days = 365
         }
     }
         
@@ -257,7 +257,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_70 days = 360
+            modifier = biopopgrowth_distribute_surplus_70 days = 365
         }
     }
 
@@ -276,7 +276,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_75 days = 360
+            modifier = biopopgrowth_distribute_surplus_75 days = 365
         }
     }
         
@@ -295,7 +295,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_80 days = 360
+            modifier = biopopgrowth_distribute_surplus_80 days = 365
         }
     }
 
@@ -314,7 +314,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_85 days = 360
+            modifier = biopopgrowth_distribute_surplus_85 days = 365
         }
     }
         
@@ -333,7 +333,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_90 days = 360
+            modifier = biopopgrowth_distribute_surplus_90 days = 365
         }
     }
 
@@ -352,7 +352,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_95 days = 360
+            modifier = biopopgrowth_distribute_surplus_95 days = 365
         }
     }
         
@@ -371,7 +371,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_100 days = 360
+            modifier = biopopgrowth_distribute_surplus_100 days = 365
         }
     }
 
@@ -390,7 +390,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_105 days = 360
+            modifier = biopopgrowth_distribute_surplus_105 days = 365
         }
     }
     
@@ -409,7 +409,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_110 days = 360
+            modifier = biopopgrowth_distribute_surplus_110 days = 365
         }
     }
 
@@ -428,7 +428,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_115 days = 360
+            modifier = biopopgrowth_distribute_surplus_115 days = 365
         }
     }
         
@@ -447,7 +447,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_120 days = 360
+            modifier = biopopgrowth_distribute_surplus_120 days = 365
         }
     }
 
@@ -466,7 +466,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_125 days = 360
+            modifier = biopopgrowth_distribute_surplus_125 days = 365
         }
     }
         
@@ -485,7 +485,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_130 days = 360
+            modifier = biopopgrowth_distribute_surplus_130 days = 365
         }
     }
 
@@ -504,7 +504,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_135 days = 360
+            modifier = biopopgrowth_distribute_surplus_135 days = 365
         }
     }
     
@@ -523,7 +523,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_140 days = 360
+            modifier = biopopgrowth_distribute_surplus_140 days = 365
         }
     }
 
@@ -542,7 +542,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_145 days = 360
+            modifier = biopopgrowth_distribute_surplus_145 days = 365
         }
     }
         
@@ -561,7 +561,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_150 days = 360
+            modifier = biopopgrowth_distribute_surplus_150 days = 365
         }
     }
 
@@ -580,7 +580,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_155 days = 360
+            modifier = biopopgrowth_distribute_surplus_155 days = 365
         }
     }
         
@@ -599,7 +599,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_160 days = 360
+            modifier = biopopgrowth_distribute_surplus_160 days = 365
         }
     }
 
@@ -618,7 +618,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_165 days = 360
+            modifier = biopopgrowth_distribute_surplus_165 days = 365
         }
     }
         
@@ -637,7 +637,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_170 days = 360
+            modifier = biopopgrowth_distribute_surplus_170 days = 365
         }
     }
 
@@ -656,7 +656,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_175 days = 360
+            modifier = biopopgrowth_distribute_surplus_175 days = 365
         }
     }
         
@@ -675,7 +675,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_180 days = 360
+            modifier = biopopgrowth_distribute_surplus_180 days = 365
         }
     }
 
@@ -694,7 +694,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_185 days = 360
+            modifier = biopopgrowth_distribute_surplus_185 days = 365
         }
     }
         
@@ -713,7 +713,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_190 days = 360
+            modifier = biopopgrowth_distribute_surplus_190 days = 365
         }
     }
 
@@ -732,7 +732,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_195 days = 360
+            modifier = biopopgrowth_distribute_surplus_195 days = 365
         }
     }
         
@@ -751,7 +751,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_200 days = 360
+            modifier = biopopgrowth_distribute_surplus_200 days = 365
         }
     }
         
@@ -764,7 +764,7 @@ biopopgrowth_distribute_surplus_effect = {
         }
         
         add_modifier = {
-            modifier = biopopgrowth_distribute_surplus_200 days = 360
+            modifier = biopopgrowth_distribute_surplus_200 days = 365
         }
     }
 }
