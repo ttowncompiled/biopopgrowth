@@ -56,7 +56,7 @@ decision_distribute_surplus_1 = {
 		has_modifier = biopopgrowth_pop_census
 		NOT = {
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value >= 5
 			}
 		}
@@ -102,11 +102,11 @@ decision_distribute_surplus_5 = {
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value < 5
 			}
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value >= 10
 			}
 		}
@@ -152,11 +152,11 @@ decision_distribute_surplus_10 = {
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value < 10
 			}
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value >= 15
 			}
 		}
@@ -202,11 +202,11 @@ decision_distribute_surplus_15 = {
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value < 15
 			}
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value >= 20
 			}
 		}
@@ -252,11 +252,11 @@ decision_distribute_surplus_20 = {
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value < 20
 			}
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value >= 25
 			}
 		}
@@ -302,11 +302,11 @@ decision_distribute_surplus_25 = {
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value < 25
 			}
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value >= 30
 			}
 		}
@@ -352,11 +352,11 @@ decision_distribute_surplus_30 = {
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value < 30
 			}
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value >= 35
 			}
 		}
@@ -402,11 +402,11 @@ decision_distribute_surplus_35 = {
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value < 35
 			}
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value >= 40
 			}
 		}
@@ -452,11 +452,11 @@ decision_distribute_surplus_40 = {
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value < 40
 			}
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value >= 45
 			}
 		}
@@ -502,11 +502,11 @@ decision_distribute_surplus_45 = {
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value < 45
 			}
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value >= 50
 			}
 		}
@@ -552,11 +552,11 @@ decision_distribute_surplus_50 = {
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value < 50
 			}
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value >= 55
 			}
 		}
@@ -602,11 +602,11 @@ decision_distribute_surplus_55 = {
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value < 55
 			}
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value >= 60
 			}
 		}
@@ -652,11 +652,11 @@ decision_distribute_surplus_60 = {
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value < 60
 			}
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value >= 65
 			}
 		}
@@ -702,11 +702,11 @@ decision_distribute_surplus_65 = {
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value < 65
 			}
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value >= 70
 			}
 		}
@@ -752,11 +752,11 @@ decision_distribute_surplus_70 = {
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value < 70
 			}
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value >= 75
 			}
 		}
@@ -802,7 +802,7 @@ decision_distribute_surplus_75 = {
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
-				which = planet_pops_all
+				which = bio_pops
 				value < 75
 			}
 		}
