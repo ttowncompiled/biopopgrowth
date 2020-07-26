@@ -21,7 +21,13 @@ decision_pop_census = {
 
 	effect = {
 		hidden_effect = {
-			biopopgrowth_count_all_pops_effect = yes
+			biopopgrowth_count_bio_pops_effect = yes
+			if = {
+				limit = {
+					has_modifier = biopopgrowth_pop_census
+				}
+				remove_modifier = biopopgrowth_pop_census
+			}
 			add_modifier = {
 				modifier = biopopgrowth_pop_census
 				days = 365
