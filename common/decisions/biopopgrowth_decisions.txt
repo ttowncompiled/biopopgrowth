@@ -14,9 +14,6 @@ decision_pop_census = {
 		NOT = {
 			is_planet_class = pc_machine
 		}
-		NOT = {
-			is_planet_class = pc_hive
-		}
 	}
 
 	effect = {
@@ -55,9 +52,6 @@ decision_distribute_surplus_1 = {
 		habitable_structure = no
 		NOT = {
 			is_planet_class = pc_machine
-		}
-		NOT = {
-			is_planet_class = pc_hive
 		}
 		has_modifier = biopopgrowth_pop_census
 		NOT = {
@@ -104,9 +98,6 @@ decision_distribute_surplus_5 = {
 		habitable_structure = no
 		NOT = {
 			is_planet_class = pc_machine
-		}
-		NOT = {
-			is_planet_class = pc_hive
 		}
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
@@ -158,9 +149,6 @@ decision_distribute_surplus_10 = {
 		NOT = {
 			is_planet_class = pc_machine
 		}
-		NOT = {
-			is_planet_class = pc_hive
-		}
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
@@ -210,9 +198,6 @@ decision_distribute_surplus_15 = {
 		habitable_structure = no
 		NOT = {
 			is_planet_class = pc_machine
-		}
-		NOT = {
-			is_planet_class = pc_hive
 		}
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
@@ -264,9 +249,6 @@ decision_distribute_surplus_20 = {
 		NOT = {
 			is_planet_class = pc_machine
 		}
-		NOT = {
-			is_planet_class = pc_hive
-		}
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
@@ -316,9 +298,6 @@ decision_distribute_surplus_25 = {
 		habitable_structure = no
 		NOT = {
 			is_planet_class = pc_machine
-		}
-		NOT = {
-			is_planet_class = pc_hive
 		}
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
@@ -370,9 +349,6 @@ decision_distribute_surplus_30 = {
 		NOT = {
 			is_planet_class = pc_machine
 		}
-		NOT = {
-			is_planet_class = pc_hive
-		}
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
@@ -422,9 +398,6 @@ decision_distribute_surplus_35 = {
 		habitable_structure = no
 		NOT = {
 			is_planet_class = pc_machine
-		}
-		NOT = {
-			is_planet_class = pc_hive
 		}
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
@@ -476,9 +449,6 @@ decision_distribute_surplus_40 = {
 		NOT = {
 			is_planet_class = pc_machine
 		}
-		NOT = {
-			is_planet_class = pc_hive
-		}
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
@@ -528,9 +498,6 @@ decision_distribute_surplus_45 = {
 		habitable_structure = no
 		NOT = {
 			is_planet_class = pc_machine
-		}
-		NOT = {
-			is_planet_class = pc_hive
 		}
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
@@ -582,9 +549,6 @@ decision_distribute_surplus_50 = {
 		NOT = {
 			is_planet_class = pc_machine
 		}
-		NOT = {
-			is_planet_class = pc_hive
-		}
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
@@ -634,9 +598,6 @@ decision_distribute_surplus_55 = {
 		habitable_structure = no
 		NOT = {
 			is_planet_class = pc_machine
-		}
-		NOT = {
-			is_planet_class = pc_hive
 		}
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
@@ -688,9 +649,6 @@ decision_distribute_surplus_60 = {
 		NOT = {
 			is_planet_class = pc_machine
 		}
-		NOT = {
-			is_planet_class = pc_hive
-		}
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
@@ -740,9 +698,6 @@ decision_distribute_surplus_65 = {
 		habitable_structure = no
 		NOT = {
 			is_planet_class = pc_machine
-		}
-		NOT = {
-			is_planet_class = pc_hive
 		}
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
@@ -794,9 +749,6 @@ decision_distribute_surplus_70 = {
 		NOT = {
 			is_planet_class = pc_machine
 		}
-		NOT = {
-			is_planet_class = pc_hive
-		}
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
 			check_variable = {
@@ -846,9 +798,6 @@ decision_distribute_surplus_75 = {
 		habitable_structure = no
 		NOT = {
 			is_planet_class = pc_machine
-		}
-		NOT = {
-			is_planet_class = pc_hive
 		}
 		has_modifier = biopopgrowth_pop_census
 		NOR = {
