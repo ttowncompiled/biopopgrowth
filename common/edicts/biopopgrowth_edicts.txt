@@ -1,0 +1,37 @@
+biopopgrowth_edict_distribute_surplus = {
+	length = -1
+	resources = {
+		category = edicts
+		cost = {
+			influence = 0
+		}
+	}
+
+	effect = {
+		if = {
+			limit = {
+				has_country_flag = biopopgrowth_cleaned_edict_distribute_surplus
+			}
+			remove_country_flag = biopopgrowth_cleaned_edict_distribute_surplus
+		}
+		every_owned_planet = {
+			planet = {
+				if = {
+					limit = {
+						NOT = {
+							has_modifier = biopopgrowth_distribute_surplus
+						}
+					}
+					biopopgrowth_distribute_surplus_effect = yes
+					add_modifier = {
+						modifier = biopopgrowth_distribute_surplus
+					}
+				}
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
