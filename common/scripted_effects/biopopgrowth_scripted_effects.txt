@@ -1585,7 +1585,7 @@ biopopgrowth_count_bio_pops_effect = {
 	
 	every_owned_pop = {
 		limit = {
-			is_robot_pop = no
+			is_organic_species = yes
 		}
 		
 		planet = {
