@@ -1,20 +1,19 @@
 namespace = biopopgrowth_event
 
-
 country_event = {
 	id = biopopgrowth_event.1
 	hide_window = yes
 	is_triggered_only = yes
 
 	immediate = {
-		add_resource = { energy = 1000	}
-		add_resource = { minerals = 1000 }
-		add_resource = { alloys = 1000	}
-		add_resource = { influence = 1000 }
 		every_owned_planet = {
-			
 			planet = {
-				biopopgrowth_distribute_surplus_effect = yes
+				if = {
+					limit = {
+						has_modifier = biopopgrowth_distribute_surplus
+					}
+					biopopgrowth_distribute_surplus_effect = yes
+				}
 			}
 		}
 	}

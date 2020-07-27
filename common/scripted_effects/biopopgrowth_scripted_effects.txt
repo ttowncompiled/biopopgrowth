@@ -1,4 +1,5 @@
 biopopgrowth_distribute_surplus_effect = {
+	biopopgrowth_remove_distribute_surplus_effect = yes
 	biopopgrowth_calculate_bp_growth = yes
 
 	if = {
@@ -10,7 +11,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_2 days = 365
+			modifier = biopopgrowth_distribute_surplus_2 days = -1
 		}
 	}
 
@@ -29,7 +30,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_5 days = 365
+			modifier = biopopgrowth_distribute_surplus_5 days = -1
 		}
 	}
 
@@ -48,7 +49,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_7 days = 365
+			modifier = biopopgrowth_distribute_surplus_7 days = -1
 		}
 	}
 	
@@ -67,7 +68,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_10 days = 365
+			modifier = biopopgrowth_distribute_surplus_10 days = -1
 		}
 	}
 
@@ -86,7 +87,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_12 days = 365
+			modifier = biopopgrowth_distribute_surplus_12 days = -1
 		}
 	}
 
@@ -105,7 +106,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_15 days = 365
+			modifier = biopopgrowth_distribute_surplus_15 days = -1
 		}
 	}
 
@@ -124,7 +125,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_17 days = 365
+			modifier = biopopgrowth_distribute_surplus_17 days = -1
 		}
 	}
 		
@@ -143,7 +144,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_20 days = 365
+			modifier = biopopgrowth_distribute_surplus_20 days = -1
 		}
 	}
 
@@ -162,7 +163,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_22 days = 365
+			modifier = biopopgrowth_distribute_surplus_22 days = -1
 		}
 	}
 
@@ -181,7 +182,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_25 days = 365
+			modifier = biopopgrowth_distribute_surplus_25 days = -1
 		}
 	}
 
@@ -200,7 +201,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_27 days = 365
+			modifier = biopopgrowth_distribute_surplus_27 days = -1
 		}
 	}
 		
@@ -219,7 +220,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_30 days = 365
+			modifier = biopopgrowth_distribute_surplus_30 days = -1
 		}
 	}
 
@@ -238,7 +239,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_32 days = 365
+			modifier = biopopgrowth_distribute_surplus_32 days = -1
 		}
 	}
 
@@ -257,7 +258,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_35 days = 365
+			modifier = biopopgrowth_distribute_surplus_35 days = -1
 		}
 	}
 
@@ -276,7 +277,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_37 days = 365
+			modifier = biopopgrowth_distribute_surplus_37 days = -1
 		}
 	}
 	
@@ -295,7 +296,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_40 days = 365
+			modifier = biopopgrowth_distribute_surplus_40 days = -1
 		}
 	}
 
@@ -314,7 +315,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_42 days = 365
+			modifier = biopopgrowth_distribute_surplus_42 days = -1
 		}
 	}
 
@@ -333,7 +334,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_45 days = 365
+			modifier = biopopgrowth_distribute_surplus_45 days = -1
 		}
 	}
 
@@ -352,7 +353,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_47 days = 365
+			modifier = biopopgrowth_distribute_surplus_47 days = -1
 		}
 	}
 		
@@ -371,7 +372,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_50 days = 365
+			modifier = biopopgrowth_distribute_surplus_50 days = -1
 		}
 	}
 
@@ -390,7 +391,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_52 days = 365
+			modifier = biopopgrowth_distribute_surplus_52 days = -1
 		}
 	}
 
@@ -409,7 +410,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_55 days = 365
+			modifier = biopopgrowth_distribute_surplus_55 days = -1
 		}
 	}
 
@@ -428,7 +429,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_57 days = 365
+			modifier = biopopgrowth_distribute_surplus_57 days = -1
 		}
 	}
 		
@@ -447,7 +448,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_60 days = 365
+			modifier = biopopgrowth_distribute_surplus_60 days = -1
 		}
 	}
 
@@ -466,7 +467,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_62 days = 365
+			modifier = biopopgrowth_distribute_surplus_62 days = -1
 		}
 	}
 
@@ -485,7 +486,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_65 days = 365
+			modifier = biopopgrowth_distribute_surplus_65 days = -1
 		}
 	}
 
@@ -504,7 +505,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_67 days = 365
+			modifier = biopopgrowth_distribute_surplus_67 days = -1
 		}
 	}
 		
@@ -523,7 +524,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_70 days = 365
+			modifier = biopopgrowth_distribute_surplus_70 days = -1
 		}
 	}
 
@@ -542,7 +543,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_72 days = 365
+			modifier = biopopgrowth_distribute_surplus_72 days = -1
 		}
 	}
 
@@ -561,7 +562,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_75 days = 365
+			modifier = biopopgrowth_distribute_surplus_75 days = -1
 		}
 	}
 
@@ -580,7 +581,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_77 days = 365
+			modifier = biopopgrowth_distribute_surplus_77 days = -1
 		}
 	}
 		
@@ -599,7 +600,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_80 days = 365
+			modifier = biopopgrowth_distribute_surplus_80 days = -1
 		}
 	}
 
@@ -618,7 +619,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_82 days = 365
+			modifier = biopopgrowth_distribute_surplus_82 days = -1
 		}
 	}
 
@@ -637,7 +638,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_85 days = 365
+			modifier = biopopgrowth_distribute_surplus_85 days = -1
 		}
 	}
 
@@ -656,7 +657,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_87 days = 365
+			modifier = biopopgrowth_distribute_surplus_87 days = -1
 		}
 	}
 		
@@ -675,7 +676,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_90 days = 365
+			modifier = biopopgrowth_distribute_surplus_90 days = -1
 		}
 	}
 
@@ -694,7 +695,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_92 days = 365
+			modifier = biopopgrowth_distribute_surplus_92 days = -1
 		}
 	}
 
@@ -713,7 +714,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_95 days = 365
+			modifier = biopopgrowth_distribute_surplus_95 days = -1
 		}
 	}
 
@@ -732,7 +733,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_97 days = 365
+			modifier = biopopgrowth_distribute_surplus_97 days = -1
 		}
 	}
 		
@@ -751,7 +752,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_100 days = 365
+			modifier = biopopgrowth_distribute_surplus_100 days = -1
 		}
 	}
 
@@ -770,7 +771,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_102 days = 365
+			modifier = biopopgrowth_distribute_surplus_102 days = -1
 		}
 	}
 
@@ -789,7 +790,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_105 days = 365
+			modifier = biopopgrowth_distribute_surplus_105 days = -1
 		}
 	}
 
@@ -808,7 +809,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_107 days = 365
+			modifier = biopopgrowth_distribute_surplus_107 days = -1
 		}
 	}
 	
@@ -827,7 +828,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_110 days = 365
+			modifier = biopopgrowth_distribute_surplus_110 days = -1
 		}
 	}
 
@@ -846,7 +847,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_112 days = 365
+			modifier = biopopgrowth_distribute_surplus_112 days = -1
 		}
 	}
 
@@ -865,7 +866,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_115 days = 365
+			modifier = biopopgrowth_distribute_surplus_115 days = -1
 		}
 	}
 
@@ -884,7 +885,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_117 days = 365
+			modifier = biopopgrowth_distribute_surplus_117 days = -1
 		}
 	}
 		
@@ -903,7 +904,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_120 days = 365
+			modifier = biopopgrowth_distribute_surplus_120 days = -1
 		}
 	}
 
@@ -922,7 +923,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_122 days = 365
+			modifier = biopopgrowth_distribute_surplus_122 days = -1
 		}
 	}
 
@@ -941,7 +942,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_125 days = 365
+			modifier = biopopgrowth_distribute_surplus_125 days = -1
 		}
 	}
 
@@ -960,7 +961,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_127 days = 365
+			modifier = biopopgrowth_distribute_surplus_127 days = -1
 		}
 	}
 		
@@ -979,7 +980,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_130 days = 365
+			modifier = biopopgrowth_distribute_surplus_130 days = -1
 		}
 	}
 
@@ -998,7 +999,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_132 days = 365
+			modifier = biopopgrowth_distribute_surplus_132 days = -1
 		}
 	}
 
@@ -1017,7 +1018,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_135 days = 365
+			modifier = biopopgrowth_distribute_surplus_135 days = -1
 		}
 	}
 
@@ -1036,7 +1037,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_137 days = 365
+			modifier = biopopgrowth_distribute_surplus_137 days = -1
 		}
 	}
 	
@@ -1055,7 +1056,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_140 days = 365
+			modifier = biopopgrowth_distribute_surplus_140 days = -1
 		}
 	}
 
@@ -1074,7 +1075,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_142 days = 365
+			modifier = biopopgrowth_distribute_surplus_142 days = -1
 		}
 	}
 
@@ -1093,7 +1094,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_145 days = 365
+			modifier = biopopgrowth_distribute_surplus_145 days = -1
 		}
 	}
 
@@ -1112,7 +1113,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_147 days = 365
+			modifier = biopopgrowth_distribute_surplus_147 days = -1
 		}
 	}
 		
@@ -1131,7 +1132,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_150 days = 365
+			modifier = biopopgrowth_distribute_surplus_150 days = -1
 		}
 	}
 
@@ -1150,7 +1151,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_152 days = 365
+			modifier = biopopgrowth_distribute_surplus_152 days = -1
 		}
 	}
 
@@ -1169,7 +1170,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_155 days = 365
+			modifier = biopopgrowth_distribute_surplus_155 days = -1
 		}
 	}
 
@@ -1188,7 +1189,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_157 days = 365
+			modifier = biopopgrowth_distribute_surplus_157 days = -1
 		}
 	}
 		
@@ -1207,7 +1208,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_160 days = 365
+			modifier = biopopgrowth_distribute_surplus_160 days = -1
 		}
 	}
 
@@ -1226,7 +1227,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_162 days = 365
+			modifier = biopopgrowth_distribute_surplus_162 days = -1
 		}
 	}
 
@@ -1245,7 +1246,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_165 days = 365
+			modifier = biopopgrowth_distribute_surplus_165 days = -1
 		}
 	}
 
@@ -1264,7 +1265,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_167 days = 365
+			modifier = biopopgrowth_distribute_surplus_167 days = -1
 		}
 	}
 		
@@ -1283,7 +1284,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_170 days = 365
+			modifier = biopopgrowth_distribute_surplus_170 days = -1
 		}
 	}
 
@@ -1302,7 +1303,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_172 days = 365
+			modifier = biopopgrowth_distribute_surplus_172 days = -1
 		}
 	}
 
@@ -1321,7 +1322,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_175 days = 365
+			modifier = biopopgrowth_distribute_surplus_175 days = -1
 		}
 	}
 
@@ -1340,7 +1341,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_177 days = 365
+			modifier = biopopgrowth_distribute_surplus_177 days = -1
 		}
 	}
 		
@@ -1359,7 +1360,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_180 days = 365
+			modifier = biopopgrowth_distribute_surplus_180 days = -1
 		}
 	}
 
@@ -1378,7 +1379,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_182 days = 365
+			modifier = biopopgrowth_distribute_surplus_182 days = -1
 		}
 	}
 
@@ -1397,7 +1398,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_185 days = 365
+			modifier = biopopgrowth_distribute_surplus_185 days = -1
 		}
 	}
 
@@ -1416,7 +1417,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_187 days = 365
+			modifier = biopopgrowth_distribute_surplus_187 days = -1
 		}
 	}
 		
@@ -1435,7 +1436,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_190 days = 365
+			modifier = biopopgrowth_distribute_surplus_190 days = -1
 		}
 	}
 
@@ -1454,7 +1455,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_192 days = 365
+			modifier = biopopgrowth_distribute_surplus_192 days = -1
 		}
 	}
 
@@ -1473,7 +1474,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_195 days = 365
+			modifier = biopopgrowth_distribute_surplus_195 days = -1
 		}
 	}
 
@@ -1492,7 +1493,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_197 days = 365
+			modifier = biopopgrowth_distribute_surplus_197 days = -1
 		}
 	}
 		
@@ -1511,7 +1512,7 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_200 days = 365
+			modifier = biopopgrowth_distribute_surplus_200 days = -1
 		}
 	}
 		
@@ -1524,13 +1525,13 @@ biopopgrowth_distribute_surplus_effect = {
 		}
 		
 		add_modifier = {
-			modifier = biopopgrowth_distribute_surplus_200 days = 365
+			modifier = biopopgrowth_distribute_surplus_200 days = -1
 		}
 	}
 }
 
 biopopgrowth_calculate_bp_growth = {
-	biopopgrowth_calc_capacity_effect = yes
+	biopopgrowth_calc_pops_and_capacity_effect = yes
 	
 	set_variable = {
 		which = bp_growth
@@ -1558,7 +1559,8 @@ biopopgrowth_calculate_bp_growth = {
 	}
 }
 
-biopopgrowth_calc_capacity_effect = {
+biopopgrowth_calc_pops_and_capacity_effect = {
+	biopopgrowth_count_bio_pops_effect = yes
 	biopopgrowth_calc_bio_free_housing_effect = yes
 	
 	set_variable = {
@@ -1876,7 +1878,7 @@ biopopgrowth_calc_bio_free_housing_effect = {
 		change_variable = { which = bio_free_housing value = -1 }
 	}
 	if = {
-		limit = { free_housing < -31 }
+		limit = { free_housing < --1 }
 		change_variable = { which = bio_free_housing value = -1 }
 	}
 	if = {
@@ -2128,7 +2130,7 @@ biopopgrowth_calc_bio_free_housing_effect = {
 		change_variable = { which = bio_free_housing value = 1 }
 	}
 	if = {
-		limit = { free_housing > 31 }
+		limit = { free_housing > -1 }
 		change_variable = { which = bio_free_housing value = 1 }
 	}
 	if = {
@@ -2406,5 +2408,488 @@ biopopgrowth_calc_bio_free_housing_effect = {
 	if = {
 		limit = { free_housing > 100 }
 		change_variable = { which = bio_free_housing value = 1 }
+	}
+}
+
+biopopgrowth_remove_distribute_surplus_effect = {
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_2
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_2
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_5
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_5
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_7
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_7
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_10
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_10
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_12
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_12
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_15
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_15
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_17
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_17
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_20
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_20
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_22
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_22
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_25
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_25
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_27
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_27
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_30
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_30
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_32
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_32
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_35
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_35
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_37
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_37
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_40
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_40
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_42
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_42
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_45
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_45
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_47
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_47
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_50
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_50
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_52
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_52
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_55
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_55
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_57
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_57
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_60
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_60
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_62
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_62
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_65
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_65
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_67
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_67
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_70
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_70
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_72
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_72
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_75
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_75
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_77
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_77
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_80
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_80
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_82
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_82
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_85
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_85
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_87
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_87
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_90
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_90
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_92
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_92
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_95
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_95
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_97
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_97
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_100
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_100
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_102
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_102
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_105
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_105
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_107
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_107
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_110
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_110
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_112
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_112
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_115
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_115
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_117
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_117
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_120
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_120
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_122
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_122
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_125
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_125
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_127
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_127
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_130
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_130
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_132
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_132
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_135
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_135
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_137
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_137
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_140
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_140
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_142
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_142
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_145
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_145
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_147
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_147
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_150
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_150
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_152
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_152
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_155
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_155
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_157
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_157
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_160
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_160
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_162
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_162
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_165
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_165
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_167
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_1677
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_170
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_170
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_172
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_172
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_175
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_175
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_177
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_177
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_180
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_180
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_182
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_182
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_185
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_185
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_187
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_187
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_190
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_190
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_192
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_192
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_195
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_195
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_197
+    	}
+		remove_modifier = biopopgrowth_distribute_surplus_197
+	}
+	if {
+		limit = {
+			has_modifier = biopopgrowth_distribute_surplus_200
+		}
+		remove_modifier = biopopgrowth_distribute_surplus_200
 	}
 }
