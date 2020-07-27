@@ -1,8 +1,8 @@
 ﻿l_english:
     decision_distribute_surplus: "Distribute Surplus"
     decision_distribute_surplus_desc: "Distributing surplus resources encourages logistic pop growth, pop happiness, and planet stability at the cost of higher food consumption."
-    decision_stop_distribute_surplus: "STOP Distribute Surplus"
-    decision_stop_distribute_surplus_desc: "Stop distributing surplus resources."
+    decision_stop_distribute_surplus: "STOP Distributing Surplus"
+    decision_stop_distribute_surplus_desc: "Stops the distribution of surplus resources."
     edict_biopopgrowth_edict_distribute_surplus: "$decision_distribute_surplus$"
     edict_biopopgrowth_edict_distribute_surplus_desc: "$decision_distribute_surplus_desc$ Affects all colonized planets and will immediately apply to newly colonized planets. Individual planets can opt-out using the \"STOP Distribute Surplus\" decision"
     biopopgrowth_distribute_surplus: "$decision_distribute_surplus$"
