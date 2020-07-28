@@ -5,17 +5,10 @@ on_yearly_pulse_country = {
 	}
 }
 
-# this = country
-on_monthly_pulse_country = {
-	events = {
-		biopopgrowth_event.2
-	}
-}
-
 # A planet has been colonized.
 # Scope = Planet
 on_colonized = {
 	events = {
-		biopopgrowth_event.3
+		biopopgrowth_event.2
 	}
 }

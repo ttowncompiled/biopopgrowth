@@ -1,6 +1,8 @@
+[b]DISCLAIMER[/b] The edict has expired notification means that the edict effect has been successfully applied.
+
 [h1]Description[/h1]
 
-Adds two new planetary decisions and one edict that can be accessed from the start of the game. The first decision, [i]Distribute Surplus[/i], adds a modifier to the planet that improves pop happiness, planet stability, and pop growth at the cost of increased food consumption. The pop growth modifier is determined from the planet's current biological pop size and its free housing, which results in logistic pop growth. The second decision, [i]STOP Distributing Surplus[/i], removes the modifier(s) added by Distribute Surplus, including the increased food consumption rate. Finally, there is an edict, [i]Distribute Surplus[/i], which costs nothing and applies the effects of the Distribute Surplus decision to each colonized planet and to new planets upon colonization. Individual planets can opt-out by utilizing the STOP Distributing Surplus decision.
+Adds two new planetary decisions and two corresponding edicts that can be accessed from the start of the game. The first decision, [i]Distribute Surplus[/i], adds a modifier to the planet that improves pop happiness, planet stability, and pop growth at the cost of increased food consumption. The pop growth modifier is determined from the planet's current biological pop size and its free housing, which results in logistic pop growth. The second decision, [i]STOP Distributing Surplus[/i], removes the modifier(s) added by Distribute Surplus, including the increased food consumption rate. Each decision has a corresponding edict that applies the decision to each colonized planet and new colonies.
 
 [h1]Distribute Surplus[/h1]
 
@@ -10,7 +12,7 @@ The formula for logistic growth is dN/dt = r * N * (K - N) / K, where dN/dt is t
 
 While the Distribute Surplus decision costs nothing, it increases the food consumption of organic species by 300% (minerals for Lithoids).
 
-The effect of this decision is removed by enacting the [i]STOP Distributing Surplus[/i] decision, updated at the end of the month. [b]Distribute Surplus[/b] can be applied to all planets by enacting the Distribute Surplus edict, found on the edicts page. Toggling off the edict similarly applies the [b]STOP Distributing Surplus[/b] decision to each planet, which removes the effects of Distribute Surplus. Invididual planets can opt-out of the edict by enacting the STOP Distributing Surplus decision.
+The effect of this decision is removed by enacting the [i]STOP Distributing Surplus[/i] decision, updated at the end of the month. Distribute Surplus can be applied to all colonized planets and new colonies by enacting the [b]Distribute Surplus edict[/b], found on the edicts page. Similarly, the Distribute Surplus modifiers can be removed from all colonized planets and new colonies by enacting the [b]STOP Distributing Surplus edict[/b].
 
 [h1]Notes[/h1]
 

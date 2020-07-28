@@ -19,39 +19,8 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = biopopgrowth_event.2
-	hide_window = yes
-	is_triggered_only = yes
-
-	immediate = {
-		if = {
-			limit = {
-				NOT = {
-					has_edict = biopopgrowth_edict_distribute_surplus
-				}
-				NOT = {
-					has_country_flag = biopopgrowth_cleaned_edict_distribute_surplus
-				}
-			}
-			every_owned_planet = {
-				planet = {
-					if = {
-						limit = {
-							has_modifier = biopopgrowth_distribute_surplus
-						}
-						biopopgrowth_remove_distribute_surplus_effect = yes
-						remove_modifier = biopopgrowth_distribute_surplus
-					}
-				}
-			}
-			set_country_flag = biopopgrowth_cleaned_edict_distribute_surplus
-		}
-	}
-}
-
 planet_event = {
-	id = biopopgrowth_event.3
+	id = biopopgrowth_event.2
 	hide_window = yes
 	is_triggered_only = yes
 
@@ -62,7 +31,7 @@ planet_event = {
 					has_modifier = biopopgrowth_distribute_surplus
 				}
 				owner = {
-					has_edict = biopopgrowth_edict_distribute_surplus
+					has_country_flag = biopopgrowth_edict_distribute_surplus
 				}
 			}
 			biopopgrowth_distribute_surplus_effect = yes
