@@ -33,6 +33,62 @@ decision_distribute_surplus = {
 
 	ai_weight = {
 		weight = 1
+		modifier = {
+			factor = 0
+			OR = {
+				free_housing < 1
+				num_pops < 4
+				owner = {
+					OR = {
+						AND = {
+							has_country_resource = {
+								type = minerals
+								amount = 0
+							}
+							has_monthly_income = {
+								type = minerals
+								amount < 0
+							}
+						}
+						AND = {
+							has_country_resource = {
+								type = food
+								amount = 0
+							}
+							has_monthly_income = {
+								type = food
+								amount < 0
+							}
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 10
+			owner = {
+				OR = {
+					AND = {
+						has_country_resource = {
+							type = minerals
+							amount > 1000
+						}
+						has_country_resource = {
+							type = food
+							amount = 0
+						}
+						has_monthly_income = {
+							type = food
+							amount = 0
+						}
+					}
+					has_country_resource = {
+						type = food
+						amount > 1000
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -67,5 +123,36 @@ decision_stop_distribute_surplus = {
 
 	ai_weight = {
 		weight = 1
+		modifier = {
+			factor = 10
+			OR = {
+				free_housing < 1
+				num_pops < 4
+				owner = {
+					OR = {
+						AND = {
+							has_country_resource = {
+								type = minerals
+								amount = 0
+							}
+							has_monthly_income = {
+								type = minerals
+								amount < 0
+							}
+						}
+						AND = {
+							has_country_resource = {
+								type = food
+								amount = 0
+							}
+							has_monthly_income = {
+								type = food
+								amount < 0
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 }
