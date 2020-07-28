@@ -1,0 +1,43 @@
+namespace = biopopgrowth_event
+
+country_event = {
+	id = biopopgrowth_event.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_owned_planet = {
+			planet = {
+				if = {
+					limit = {
+						has_modifier = biopopgrowth_distribute_surplus
+					}
+					biopopgrowth_distribute_surplus_effect = yes
+				}
+			}
+		}
+	}
+}
+
+planet_event = {
+	id = biopopgrowth_event.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = {
+					has_modifier = biopopgrowth_distribute_surplus
+				}
+				owner = {
+					has_country_flag = biopopgrowth_edict_distribute_surplus
+				}
+			}
+			biopopgrowth_distribute_surplus_effect = yes
+			add_modifier = {
+				modifier = biopopgrowth_distribute_surplus
+			}
+		}
+	}
+}
