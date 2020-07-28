@@ -17,13 +17,30 @@ decision_distribute_surplus = {
 	}
 
 	allow = {
-		NOT = {
+		NOR = {
 			has_modifier = biopopgrowth_distribute_surplus
+			owner = {
+				OR = {
+					has_deficit = minerals
+					has_deficit = food
+				}
+			}
 		}
 	}
 
 	effect = {
 		hidden_effect = {
+			if = {
+				limit = {
+					NOR = {
+						owner = {
+							has_edict = biopopgrowth_edict_distribute_surplus
+						}
+						has_planet_flag = biopopgrowth_no_event_check_flag
+					}
+				}
+				set_planet_flag = biopopgrowth_no_event_check_flag
+			}
 			biopopgrowth_distribute_surplus_effect = yes
 		}
 		add_modifier = {
@@ -117,6 +134,12 @@ decision_stop_distribute_surplus = {
 	effect = {
 		hidden_effect = {
 			biopopgrowth_remove_distribute_surplus_effect = yes
+			if = {
+				limit = {
+					has_planet_flag = biopopgrowth_no_event_check_flag
+				}
+				remove_planet_flag = biopopgrowth_no_event_check_flag
+			}
 		}
 		remove_modifier = biopopgrowth_distribute_surplus
 	}

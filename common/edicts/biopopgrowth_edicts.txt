@@ -1,9 +1,16 @@
 biopopgrowth_edict_distribute_surplus = {
-	length = 0
+	length = -1
 	resources = {
 		category = edicts
 		cost = {
 			influence = 0
+		}
+	}
+
+	allow = {
+		NOR = {
+			has_deficit = minerals
+			has_deficit = food
 		}
 	}
 
@@ -22,75 +29,24 @@ biopopgrowth_edict_distribute_surplus = {
 							modifier = biopopgrowth_distribute_surplus
 						}
 					}
+					if = {
+						limit = {
+							has_planet_flag = biopopgrowth_no_event_check_flag
+						}
+						remove_planet_flag = biopopgrowth_no_event_check_flag
+					}
 				}
 			}
-			set_country_flag = biopopgrowth_edict_distribute_surplus
+			if = {
+				limit = {
+					has_country_flag = biopopgrowth_no_event_check_flag
+				}
+				remove_country_flag = biopopgrowth_no_event_check_flag
+			}
 		}
 	}
 
 	ai_weight = {
 		weight = 0
-	}
-}
-
-biopopgrowth_edict_stop_distribute_surplus = {
-	length = 0
-	resources = {
-		category = edicts
-		cost = {
-			influence = 0
-		}
-	}
-
-	effect = {
-		hidden_effect = {
-			every_owned_planet = {
-				planet = {
-					if = {
-						limit = {
-							has_modifier = biopopgrowth_distribute_surplus
-						}
-						biopopgrowth_remove_distribute_surplus_effect = yes
-						remove_modifier = biopopgrowth_distribute_surplus
-					}
-				}
-			}
-			remove_country_flag = biopopgrowth_edict_distribute_surplus
-		}
-	}
-
-	ai_weight = {
-		weight = 1
-		modifier = {
-			factor = 10
-			OR = {
-				free_housing < 1
-				num_pops < 4
-				owner = {
-					OR = {
-						AND = {
-							has_country_resource = {
-								type = minerals
-								amount = 0
-							}
-							has_monthly_income = {
-								type = minerals
-								amount < 0
-							}
-						}
-						AND = {
-							has_country_resource = {
-								type = food
-								amount = 0
-							}
-							has_monthly_income = {
-								type = food
-								amount < 0
-							}
-						}
-					}
-				}
-			}
-		}
 	}
 }

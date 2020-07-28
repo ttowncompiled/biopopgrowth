@@ -41,3 +41,69 @@ planet_event = {
 		}
 	}
 }
+
+country_event = {
+	id = biopopgrowth_event.3
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				OR = {
+					has_deficit = minerals
+					has_deficit = food
+				}
+			}
+			every_owned_planet = {
+				planet = {
+					if = {
+						limit = {
+							has_modifier = biopopgrowth_distribute_surplus
+						}
+						biopopgrowth_remove_distribute_surplus_effect = yes
+						remove_modifier = biopopgrowth_distribute_surplus
+					}
+					if = {
+						limit = {
+							has_planet_flag = biopopgrowth_no_event_check_flag
+						}
+						remove_planet_flag = biopopgrowth_no_event_check_flag
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = biopopgrowth_event.4
+	hide_window = yes
+
+	trigger = {
+		owner = {
+			NOR = {
+				has_edict = biopopgrowth_edict_distribute_surplus
+				has_country_flag = biopopgrowth_no_event_check_flag
+			}
+		}
+	}
+
+	immediate = {
+		every_owned_planet = {
+			planet = {
+				if = {
+					limit = {
+						has_modifier = biopopgrowth_distribute_surplus
+						NOT = {
+							has_planet_flag = biopopgrowth_no_event_check_flag
+						}
+					}
+					biopopgrowth_remove_distribute_surplus_effect = yes
+					remove_modifier = biopopgrowth_distribute_surplus
+				}
+			}
+		}
+		set_country_flag = biopopgrowth_no_event_check_flag
+	}
+}
