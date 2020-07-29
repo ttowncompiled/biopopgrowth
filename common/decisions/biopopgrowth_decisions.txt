@@ -14,6 +14,7 @@ decision_distribute_surplus = {
 		NOT = {
 			is_planet_class = pc_machine
 		}
+		has_technology = "tech_planetary_unification"
 	}
 
 	allow = {
@@ -125,6 +126,7 @@ decision_stop_distribute_surplus = {
 		NOT = {
 			is_planet_class = pc_machine
 		}
+		has_technology = "tech_planetary_unification"
 	}
 
 	allow = {

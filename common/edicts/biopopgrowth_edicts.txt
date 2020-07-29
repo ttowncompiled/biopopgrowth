@@ -1,10 +1,14 @@
 biopopgrowth_edict_distribute_surplus = {
 	length = -1
 	resources = {
-		category = edicts
+		category = campaigns
 		cost = {
 			influence = 0
 		}
+	}
+
+	prerequisite = {
+		"tech_planetary_unification"
 	}
 
 	allow = {
