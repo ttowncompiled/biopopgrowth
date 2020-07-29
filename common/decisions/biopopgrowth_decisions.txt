@@ -19,6 +19,8 @@ decision_distribute_surplus = {
 	allow = {
 		NOR = {
 			has_modifier = biopopgrowth_distribute_surplus
+			has_policy_flag = population_controls_allowed
+			has_policy_flag = purge_allowed
 			owner = {
 				OR = {
 					has_deficit = minerals
@@ -122,6 +124,8 @@ decision_stop_distribute_surplus = {
 
 	potential = {
 		habitable_structure = no
+		has_policy_flag = population_controls_allowed
+		has_policy_flag = purge_allowed
 		NOT = {
 			is_planet_class = pc_machine
 		}

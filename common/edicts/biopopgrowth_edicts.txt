@@ -11,6 +11,8 @@ biopopgrowth_edict_distribute_surplus = {
 		NOR = {
 			has_deficit = minerals
 			has_deficit = food
+			has_policy_flag = population_controls_allowed
+			has_policy_flag = purge_allowed
 		}
 	}
 
