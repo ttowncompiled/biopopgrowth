@@ -124,8 +124,6 @@ decision_stop_distribute_surplus = {
 
 	potential = {
 		habitable_structure = no
-		has_policy_flag = population_controls_allowed
-		has_policy_flag = purge_allowed
 		NOT = {
 			is_planet_class = pc_machine
 		}
@@ -133,6 +131,10 @@ decision_stop_distribute_surplus = {
 
 	allow = {
 		has_modifier = biopopgrowth_distribute_surplus
+		NOR = {
+			has_policy_flag = population_controls_allowed
+			has_policy_flag = purge_allowed
+		}
 	}
 
 	effect = {
