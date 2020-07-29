@@ -7,7 +7,7 @@ biopopgrowth_edict_distribute_surplus = {
 		}
 	}
 
-	prerequisite = {
+	prerequisites = {
 		"tech_planetary_unification"
 	}
 
