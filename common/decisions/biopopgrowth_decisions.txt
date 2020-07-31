@@ -46,6 +46,14 @@ decision_distribute_surplus = {
 				set_planet_flag = biopopgrowth_no_event_check_flag
 			}
 			biopopgrowth_distribute_surplus_effect = yes
+			owner = {
+				if = {
+					limit = {
+						has_country_flag = biopopgrowth_no_activations_flag
+					}
+					remove_country_flag = biopopgrowth_no_activations_flag
+				}
+			}
 		}
 		add_modifier = {
 			modifier = biopopgrowth_distribute_surplus

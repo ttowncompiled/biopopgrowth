@@ -50,7 +50,12 @@ country_event = {
 	immediate = {
 		if = {
 			limit = {
+				NOT = {
+					has_country_flag = biopopgrowth_no_activations_flag
+				}
 				OR = {
+					has_policy_flag = population_controls_allowed
+					has_policy_flag = purge_allowed
 					has_deficit = minerals
 					has_deficit = food
 				}
@@ -72,6 +77,7 @@ country_event = {
 					}
 				}
 			}
+			set_country_flag = biopopgrowth_no_activations_flag
 		}
 	}
 }
@@ -83,8 +89,9 @@ country_event = {
 	trigger = {
 		owner = {
 			NOR = {
-				has_edict = biopopgrowth_edict_distribute_surplus
+				has_country_flag = biopopgrowth_no_activations_flag
 				has_country_flag = biopopgrowth_no_event_check_flag
+				has_edict = biopopgrowth_edict_distribute_surplus
 			}
 		}
 	}
@@ -94,10 +101,10 @@ country_event = {
 			planet = {
 				if = {
 					limit = {
-						has_modifier = biopopgrowth_distribute_surplus
 						NOT = {
 							has_planet_flag = biopopgrowth_no_event_check_flag
 						}
+						has_modifier = biopopgrowth_distribute_surplus
 					}
 					biopopgrowth_remove_distribute_surplus_effect = yes
 					remove_modifier = biopopgrowth_distribute_surplus

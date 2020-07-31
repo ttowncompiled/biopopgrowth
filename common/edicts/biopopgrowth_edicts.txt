@@ -47,6 +47,12 @@ biopopgrowth_edict_distribute_surplus = {
 				}
 				remove_country_flag = biopopgrowth_no_event_check_flag
 			}
+			if = {
+				limit = {
+					has_country_flag = biopopgrowth_no_activations_flag
+				}
+				remove_country_flag = biopopgrowth_no_activations_flag
+			}
 		}
 	}
 
