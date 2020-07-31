@@ -2,404 +2,566 @@ biopopgrowth_distribute_surplus = {
 	biological_pop_happiness = 0.1
 	planet_stability_add = 2.5
     planet_pops_food_upkeep_mult = 3
+    icon = "gfx/interface/icons/planet_modifiers/pm_planet_from_space.dds"
+	icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_2 = {
     pop_growth_speed = 0.025
     pop_growth_from_immigration = 0.025
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_5 = {
     pop_growth_speed = 0.05
     pop_growth_from_immigration = 0.05
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_7 = {
     pop_growth_speed = 0.075
     pop_growth_from_immigration = 0.075
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_10 = {
     pop_growth_speed = 0.1
     pop_growth_from_immigration = 0.1
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_12 = {
     pop_growth_speed = 0.125
     pop_growth_from_immigration = 0.125
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_15 = {
     pop_growth_speed = 0.15
     pop_growth_from_immigration = 0.15
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_17 = {
     pop_growth_speed = 0.175
     pop_growth_from_immigration = 0.175
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_20 = {
     pop_growth_speed = 0.2
     pop_growth_from_immigration = 0.2
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_22 = {
     pop_growth_speed = 0.225
     pop_growth_from_immigration = 0.225
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_25 = {
     pop_growth_speed = 0.25
     pop_growth_from_immigration = 0.25
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_27 = {
     pop_growth_speed = 0.275
     pop_growth_from_immigration = 0.275
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_30 = {
     pop_growth_speed = 0.3
     pop_growth_from_immigration = 0.3
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_32 = {
     pop_growth_speed = 0.325
     pop_growth_from_immigration = 0.325
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_35 = {
     pop_growth_speed = 0.35
     pop_growth_from_immigration = 0.35
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_37 = {
     pop_growth_speed = 0.375
     pop_growth_from_immigration = 0.375
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_40 = {
     pop_growth_speed = 0.4
     pop_growth_from_immigration = 0.4
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_42 = {
     pop_growth_speed = 0.425
     pop_growth_from_immigration = 0.425
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_45 = {
     pop_growth_speed = 0.45
     pop_growth_from_immigration = 0.45
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_47 = {
     pop_growth_speed = 0.475
     pop_growth_from_immigration = 0.475
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_50 = {
     pop_growth_speed = 0.5
     pop_growth_from_immigration = 0.5
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_52 = {
     pop_growth_speed = 0.525
     pop_growth_from_immigration = 0.525
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_55 = {
     pop_growth_speed = 0.55
     pop_growth_from_immigration = 0.55
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_57 = {
     pop_growth_speed = 0.575
     pop_growth_from_immigration = 0.575
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_60 = {
     pop_growth_speed = 0.6
     pop_growth_from_immigration = 0.6
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_62 = {
     pop_growth_speed = 0.625
     pop_growth_from_immigration = 0.625
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_65 = {
     pop_growth_speed = 0.65
     pop_growth_from_immigration = 0.65
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_67 = {
     pop_growth_speed = 0.675
     pop_growth_from_immigration = 0.675
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_70 = {
     pop_growth_speed = 0.7
     pop_growth_from_immigration = 0.7
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_72 = {
     pop_growth_speed = 0.725
     pop_growth_from_immigration = 0.725
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_75 = {
     pop_growth_speed = 0.75
     pop_growth_from_immigration = 0.75
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_77 = {
     pop_growth_speed = 0.775
     pop_growth_from_immigration = 0.775
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_80 = {
     pop_growth_speed = 0.8
     pop_growth_from_immigration = 0.8
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_82 = {
     pop_growth_speed = 0.825
     pop_growth_from_immigration = 0.825
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_85 = {
     pop_growth_speed = 0.85
     pop_growth_from_immigration = 0.85
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_87 = {
     pop_growth_speed = 0.875
     pop_growth_from_immigration = 0.875
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_90 = {
     pop_growth_speed = 0.9
     pop_growth_from_immigration = 0.9
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_92 = {
     pop_growth_speed = 0.925
     pop_growth_from_immigration = 0.925
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_95 = {
     pop_growth_speed = 0.95
     pop_growth_from_immigration = 0.95
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_97 = {
     pop_growth_speed = 0.975
     pop_growth_from_immigration = 0.975
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_100 = {
     pop_growth_speed = 1
     pop_growth_from_immigration = 1
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_102 = {
     pop_growth_speed = 1.025
     pop_growth_from_immigration = 1.025
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_105 = {
     pop_growth_speed = 1.05
     pop_growth_from_immigration = 1.05
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_107 = {
     pop_growth_speed = 1.075
     pop_growth_from_immigration = 1.075
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_110 = {
     pop_growth_speed = 1.1
     pop_growth_from_immigration = 1.1
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_112 = {
     pop_growth_speed = 1.125
     pop_growth_from_immigration = 1.125
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_115 = {
     pop_growth_speed = 1.15
     pop_growth_from_immigration = 1.15
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_117 = {
     pop_growth_speed = 1.175
     pop_growth_from_immigration = 1.175
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_120 = {
     pop_growth_speed = 1.2
     pop_growth_from_immigration = 1.2
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_122 = {
     pop_growth_speed = 1.225
     pop_growth_from_immigration = 1.225
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_125 = {
     pop_growth_speed = 1.25
     pop_growth_from_immigration = 1.25
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_127 = {
     pop_growth_speed = 1.275
     pop_growth_from_immigration = 1.275
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_130 = {
     pop_growth_speed = 1.3
     pop_growth_from_immigration = 1.3
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_132 = {
     pop_growth_speed = 1.325
     pop_growth_from_immigration = 1.325
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_135 = {
     pop_growth_speed = 1.35
     pop_growth_from_immigration = 1.35
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_137 = {
     pop_growth_speed = 1.375
     pop_growth_from_immigration = 1.375
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_140 = {
     pop_growth_speed = 1.4
     pop_growth_from_immigration = 1.4
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_142 = {
     pop_growth_speed = 1.425
     pop_growth_from_immigration = 1.425
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_145 = {
     pop_growth_speed = 1.45
     pop_growth_from_immigration = 1.45
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_147 = {
     pop_growth_speed = 1.475
     pop_growth_from_immigration = 1.475
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_150 = {
     pop_growth_speed = 1.5
     pop_growth_from_immigration = 1.5
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_152 = {
     pop_growth_speed = 1.525
     pop_growth_from_immigration = 1.525
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_155 = {
     pop_growth_speed = 1.55
     pop_growth_from_immigration = 1.55
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_157 = {
     pop_growth_speed = 1.575
     pop_growth_from_immigration = 1.575
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_160 = {
     pop_growth_speed = 1.6
     pop_growth_from_immigration = 1.6
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_162 = {
     pop_growth_speed = 1.625
     pop_growth_from_immigration = 1.625
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_165 = {
     pop_growth_speed = 1.65
     pop_growth_from_immigration = 1.65
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_167 = {
     pop_growth_speed = 1.675
     pop_growth_from_immigration = 1.675
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_170 = {
     pop_growth_speed = 1.7
     pop_growth_from_immigration = 1.7
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_172 = {
     pop_growth_speed = 1.725
     pop_growth_from_immigration = 1.725
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_175 = {
     pop_growth_speed = 1.75
     pop_growth_from_immigration = 1.75
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_177 = {
     pop_growth_speed = 1.775
     pop_growth_from_immigration = 1.775
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_180 = {
     pop_growth_speed = 1.8
     pop_growth_from_immigration = 1.8
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_182 = {
     pop_growth_speed = 1.825
     pop_growth_from_immigration = 1.825
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_185 = {
     pop_growth_speed = 1.85
     pop_growth_from_immigration = 1.85
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_187 = {
     pop_growth_speed = 1.875
     pop_growth_from_immigration = 1.875
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_190 = {
     pop_growth_speed = 1.9
     pop_growth_from_immigration = 1.9
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_192 = {
     pop_growth_speed = 1.925
     pop_growth_from_immigration = 1.925
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_195 = {
     pop_growth_speed = 1.95
     pop_growth_from_immigration = 1.95
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_197 = {
     pop_growth_speed = 1.975
     pop_growth_from_immigration = 1.975
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }
 
 biopopgrowth_distribute_surplus_200 = {
     pop_growth_speed = 2
     pop_growth_from_immigration = 2
+    icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+    icon_frame = 1
 }

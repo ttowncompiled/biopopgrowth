@@ -1,5 +1,7 @@
 decision_distribute_surplus = {
 	owned_planets_only = yes
+	sound = event_administrative_work
+	icon = decision_resources
 
 	enactment_time = 0
 	resources = {
@@ -113,6 +115,7 @@ decision_distribute_surplus = {
 
 decision_stop_distribute_surplus = {
 	owned_planets_only = yes
+	sound = event_administrative_work
 
 	enactment_time = 0
 	resources = {
