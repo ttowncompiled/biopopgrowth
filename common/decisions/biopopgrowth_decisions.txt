@@ -12,7 +12,6 @@ decision_distribute_surplus = {
 	}
 
 	potential = {
-		habitable_structure = no
 		NOT = {
 			is_planet_class = pc_machine
 		}
@@ -134,7 +133,6 @@ decision_stop_distribute_surplus = {
 	}
 
 	potential = {
-		habitable_structure = no
 		NOT = {
 			is_planet_class = pc_machine
 		}
