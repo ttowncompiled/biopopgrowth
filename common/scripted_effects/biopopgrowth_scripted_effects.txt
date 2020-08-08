@@ -1564,18 +1564,33 @@ biopopgrowth_calc_pops_and_capacity_effect = {
 	biopopgrowth_calc_bio_free_housing_effect = yes
 	
 	set_variable = {
-		which = bio_capacity
+		which = bio_capacity_pops
 		value = bio_pops
+	}
+
+	multiply_variable = {
+		which = bio_capacity_pops
+		value = 1.1
+	}
+
+	set_variable = {
+		which = bio_capacity_free_housing
+		value = bio_free_housing
+	}
+
+	multiply_variable = {
+		which = bio_capacity_free_housing
+		value = 2.4
+	}
+	
+	set_variable = {
+		which = bio_capacity
+		value = bio_capacity_pops
 	}
 	
 	change_variable = {
 		which = bio_capacity
-		value = bio_free_housing
-	}
-	
-	multiply_variable = {
-		which = bio_capacity
-		value = 1.5
+		value = bio_capacity_free_housing
 	}
 }
 
